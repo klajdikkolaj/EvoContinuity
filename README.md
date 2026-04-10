@@ -1,20 +1,20 @@
 # EvoContinuity
 
-Investor-facing landing page for the Eternia vision.
+Clarity-first marketing page for Eternia.
 
 ## Positioning
-EvoContinuity presents Eternia as a **personal continuity platform**: a governed digital world for memory, meaning, guidance, and long-term growth.
+EvoContinuity now presents Eternia as a governed personal world for memory, meaning, guidance, and continuity - understandable in one screen before the deeper philosophy unfolds.
 
 ## Files
-- `index.html` — main landing page
-- `styles.css` — visual design and layout
-- `script.js` — small reveal animations
-- `assets/` — generated SVG illustrations and OG image
+- `index.html` - main landing page
+- `styles.css` - visual system, layout, and responsive behavior
+- `script.js` - reveal animations and hero glow behavior
+- `assets/world-vision.svg` - hero illustration
+- `assets/continuity-flow.svg` - governed proposal/review loop illustration
+- `assets/governance-core.svg` - trust and governance illustration
+- `assets/og-preview.svg` - social share image
 
 ## Notes
-- This is intentionally built as a static site for fast deployment on Vercel or any static host.
-- Market stats are based on fetched public report excerpts and WHO pages, cited in the footer.
-- Repo-derived proof points were computed from a live clone of `eternakk/eternia` on 2026-04-10.
-
-## Deploy
-Can be deployed as a static site with Vercel, Netlify, GitHub Pages, or any web server.
+- The site remains intentionally static for fast deployment on Vercel, Netlify, GitHub Pages, or any simple web host.
+- Near-fold proof points are grounded in the current Eternia repo state verified on 2026-04-10.
+- The current homepage favors product clarity, governance, and trust over market-theater metrics.

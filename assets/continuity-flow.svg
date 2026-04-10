@@ -1,0 +1,153 @@
+<svg width="1400" height="1040" viewBox="0 0 1400 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1040" rx="52" fill="url(#bg)" />
+  <rect x="34" y="34" width="1332" height="972" rx="40" stroke="url(#frame)" />
+
+  <circle cx="1194" cy="154" r="154" fill="url(#warmGlow)" />
+  <circle cx="182" cy="904" r="196" fill="url(#seaGlow)" />
+
+  <g opacity="0.28">
+    <path d="M198 170V780" stroke="url(#rail)" stroke-width="3" stroke-linecap="round" />
+    <path d="M240 190H1222" stroke="url(#topline)" stroke-width="2" stroke-dasharray="10 14" />
+  </g>
+
+  <text x="144" y="194" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="6">
+    HOW THE GOVERNED LOOP WORKS
+  </text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="170" y="248" width="1060" height="116" rx="30" fill="url(#cardFill)" stroke="url(#cardStroke)" />
+    <rect x="170" y="394" width="1060" height="116" rx="30" fill="url(#cardFill)" stroke="url(#cardStroke)" />
+    <rect x="170" y="540" width="1060" height="116" rx="30" fill="url(#cardFill)" stroke="url(#cardStroke)" />
+    <rect x="170" y="686" width="1060" height="116" rx="30" fill="url(#cardFill)" stroke="url(#cardStrokeWarm)" />
+    <rect x="324" y="850" width="742" height="98" rx="28" fill="url(#bandFill)" stroke="url(#bandStroke)" />
+  </g>
+
+  <g opacity="0.96">
+    <circle cx="198" cy="306" r="44" fill="url(#nodeSea)" />
+    <circle cx="198" cy="452" r="44" fill="url(#nodeBlue)" />
+    <circle cx="198" cy="598" r="44" fill="url(#nodeSea)" />
+    <circle cx="198" cy="744" r="44" fill="url(#nodeGold)" />
+  </g>
+
+  <text x="184" y="324" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">1</text>
+  <text x="184" y="470" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">2</text>
+  <text x="184" y="616" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">3</text>
+  <text x="184" y="762" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">4</text>
+
+  <text x="276" y="312" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
+    Meaning in
+  </text>
+  <text x="676" y="312" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
+    memory, dream, ritual
+  </text>
+
+  <text x="276" y="458" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
+    Proposal
+  </text>
+  <text x="676" y="458" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
+    interpreted, reviewable, reversible
+  </text>
+
+  <text x="276" y="604" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
+    Rules
+  </text>
+  <text x="676" y="604" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
+    consent, identity, role bounds
+  </text>
+
+  <text x="276" y="750" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
+    World loop
+  </text>
+  <text x="676" y="750" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
+    approve, replay, rollback
+  </text>
+
+  <text x="372" y="912" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">
+    Nothing important changes behind your back
+  </text>
+
+  <g opacity="0.88">
+    <rect x="1006" y="278" width="162" height="52" rx="26" fill="#102142" />
+    <rect x="960" y="424" width="208" height="52" rx="26" fill="#102142" />
+    <rect x="982" y="570" width="186" height="52" rx="26" fill="#102142" />
+    <rect x="992" y="716" width="176" height="52" rx="26" fill="#102142" />
+  </g>
+  <text x="1038" y="312" fill="#8FEBDD" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
+    input
+  </text>
+  <text x="998" y="458" fill="#83B9FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
+    review packet
+  </text>
+  <text x="1018" y="604" fill="#8FEBDD" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
+    guardrails
+  </text>
+  <text x="1028" y="750" fill="#F3BB78" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
+    checkpoints
+  </text>
+
+  <defs>
+    <linearGradient id="bg" x1="128" y1="86" x2="1238" y2="992" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081120" />
+      <stop offset="0.58" stop-color="#091327" />
+      <stop offset="1" stop-color="#030711" />
+    </linearGradient>
+    <linearGradient id="frame" x1="96" y1="70" x2="1310" y2="1006" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14" />
+      <stop offset="0.52" stop-color="#83B9FF" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05" />
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1194 154) rotate(90) scale(154)">
+      <stop stop-color="#F3BB78" stop-opacity="0.86" />
+      <stop offset="1" stop-color="#F3BB78" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(182 904) rotate(90) scale(196)">
+      <stop stop-color="#68E6D7" stop-opacity="0.54" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="rail" x1="198" y1="170" x2="198" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="0.52" stop-color="#83B9FF" />
+      <stop offset="1" stop-color="#F3BB78" />
+    </linearGradient>
+    <linearGradient id="topline" x1="240" y1="190" x2="1222" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#68E6D7" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#F3BB78" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardFill" x1="170" y1="248" x2="1230" y2="802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1430" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#0A1224" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="170" y1="248" x2="1230" y2="802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#284C77" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="cardStrokeWarm" x1="170" y1="686" x2="1230" y2="802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3BB78" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#83B9FF" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="bandFill" x1="324" y1="850" x2="1066" y2="948" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1732" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#0A1223" stop-opacity="0.94" />
+    </linearGradient>
+    <linearGradient id="bandStroke" x1="324" y1="850" x2="1066" y2="948" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#284C77" stop-opacity="0.44" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.18" />
+    </linearGradient>
+    <radialGradient id="nodeSea" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(198 306) rotate(90) scale(44)">
+      <stop stop-color="#A7FFF2" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </radialGradient>
+    <radialGradient id="nodeBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(198 452) rotate(90) scale(44)">
+      <stop stop-color="#C9DCFF" />
+      <stop offset="1" stop-color="#83B9FF" />
+    </radialGradient>
+    <radialGradient id="nodeGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(198 744) rotate(90) scale(44)">
+      <stop stop-color="#FFD8AE" />
+      <stop offset="1" stop-color="#F3BB78" />
+    </radialGradient>
+    <filter id="cardShadow" x="134" y="220" width="1132" height="768" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.28" />
+    </filter>
+  </defs>
+</svg>
