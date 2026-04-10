@@ -1,0 +1,64 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="44" fill="url(#bg)"/>
+  <g opacity="0.55">
+    <circle cx="204" cy="210" r="130" fill="url(#orb1)"/>
+    <circle cx="980" cy="172" r="110" fill="url(#orb2)"/>
+    <circle cx="965" cy="660" r="170" fill="url(#orb3)"/>
+  </g>
+  <path d="M140 590C257 434 417 366 619 377C802 387 930 492 1062 642" stroke="url(#path1)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 16"/>
+  <path d="M188 634C347 615 492 660 640 604C776 552 842 436 1034 412" stroke="url(#path2)" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 14"/>
+  <g filter="url(#glow)">
+    <circle cx="257" cy="520" r="16" fill="#6EF0CF"/>
+    <circle cx="492" cy="432" r="14" fill="#85A8FF"/>
+    <circle cx="728" cy="522" r="14" fill="#D995FF"/>
+    <circle cx="912" cy="566" r="16" fill="#6EF0CF"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="138" y="146" width="216" height="132" rx="24" fill="#0B1830" stroke="#20375F"/>
+    <text x="168" y="198" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Memory zones</text>
+    <text x="168" y="234" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Worlds shaped by</text>
+    <text x="168" y="258" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">meaning and return</text>
+  </g>
+  <g opacity="0.95">
+    <rect x="784" y="248" width="254" height="142" rx="26" fill="#0B1830" stroke="#27456F"/>
+    <text x="816" y="306" fill="#ECF1FF" font-family="Inter, Arial" font-size="26" font-weight="700">Virgil</text>
+    <text x="816" y="340" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Guide figure under</text>
+    <text x="816" y="365" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">bounded rules</text>
+  </g>
+  <g opacity="0.9">
+    <rect x="420" y="616" width="360" height="152" rx="28" fill="#0B1830" stroke="#294266"/>
+    <text x="458" y="672" fill="#ECF1FF" font-family="Inter, Arial" font-size="26" font-weight="700">Governed continuity</text>
+    <text x="458" y="710" fill="#A9B6D3" font-family="Inter, Arial" font-size="20">Reviewable. Reversible.</text>
+    <text x="458" y="738" fill="#A9B6D3" font-family="Inter, Arial" font-size="20">Built for trust over time.</text>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="94" y1="88" x2="1098" y2="841" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1630"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(204 210) rotate(90) scale(130)">
+      <stop stop-color="#6EF0CF"/>
+      <stop offset="1" stop-color="#6EF0CF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 172) rotate(90) scale(110)">
+      <stop stop-color="#D995FF"/>
+      <stop offset="1" stop-color="#D995FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965 660) rotate(90) scale(170)">
+      <stop stop-color="#85A8FF"/>
+      <stop offset="1" stop-color="#85A8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="path1" x1="140" y1="590" x2="1062" y2="642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EF0CF"/>
+      <stop offset="1" stop-color="#85A8FF"/>
+    </linearGradient>
+    <linearGradient id="path2" x1="188" y1="634" x2="1034" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#85A8FF"/>
+      <stop offset="1" stop-color="#D995FF"/>
+    </linearGradient>
+    <filter id="glow" x="221" y="396" width="727" height="206" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+  </defs>
+</svg>

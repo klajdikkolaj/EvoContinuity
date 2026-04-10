@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="32" fill="#08111F"/>
+  <circle cx="968" cy="114" r="140" fill="url(#a)" fill-opacity="0.6"/>
+  <circle cx="228" cy="520" r="180" fill="url(#b)" fill-opacity="0.35"/>
+  <text x="84" y="200" fill="#6EF0CF" font-family="Inter, Arial" font-size="24" font-weight="700" letter-spacing="6">EVOCONTINUITY</text>
+  <text x="84" y="304" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">A personal world</text>
+  <text x="84" y="390" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">that remembers</text>
+  <text x="84" y="476" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">what matters.</text>
+  <text x="86" y="548" fill="#A9B6D3" font-family="Inter, Arial" font-size="30">Investor-facing landing page for Eternia's continuity platform vision</text>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(968 114) rotate(90) scale(140)">
+      <stop stop-color="#D995FF"/>
+      <stop offset="1" stop-color="#D995FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(228 520) rotate(90) scale(180)">
+      <stop stop-color="#6EF0CF"/>
+      <stop offset="1" stop-color="#6EF0CF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
