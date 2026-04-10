@@ -1,20 +1,79 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" rx="32" fill="#08111F"/>
-  <circle cx="968" cy="114" r="140" fill="url(#a)" fill-opacity="0.6"/>
-  <circle cx="228" cy="520" r="180" fill="url(#b)" fill-opacity="0.35"/>
-  <text x="84" y="200" fill="#6EF0CF" font-family="Inter, Arial" font-size="24" font-weight="700" letter-spacing="6">EVOCONTINUITY</text>
-  <text x="84" y="304" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">A personal world</text>
-  <text x="84" y="390" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">that remembers</text>
-  <text x="84" y="476" fill="#ECF1FF" font-family="Inter, Arial" font-size="72" font-weight="800">what matters.</text>
-  <text x="86" y="548" fill="#A9B6D3" font-family="Inter, Arial" font-size="30">Investor-facing landing page for Eternia's continuity platform vision</text>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)" />
+  <rect x="26" y="26" width="1148" height="578" rx="26" stroke="url(#frame)" />
+
+  <circle cx="1006" cy="144" r="154" fill="url(#warmGlow)" />
+  <circle cx="920" cy="328" r="184" fill="url(#coolGlow)" />
+  <circle cx="236" cy="570" r="154" fill="url(#seaGlow)" />
+
+  <circle cx="906" cy="328" r="104" fill="url(#core)" />
+  <circle cx="906" cy="328" r="166" stroke="url(#orbitA)" stroke-width="2" opacity="0.56" />
+  <ellipse cx="906" cy="328" rx="210" ry="148" transform="rotate(-18 906 328)" stroke="url(#orbitB)" stroke-width="2" opacity="0.34" />
+
+  <path d="M646 462C726 384 786 346 850 332C924 316 1000 336 1084 412" stroke="url(#pathGlow)" stroke-width="4" stroke-linecap="round" />
+  <path d="M726 496C782 444 832 416 892 406C954 396 1016 412 1084 466" stroke="url(#pathGlowSoft)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 14" />
+
+  <text x="86" y="114" fill="#68E6D7" font-family="Sora, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="7">
+    EVOCONTINUITY FOR ETERNIA
+  </text>
+  <text x="84" y="206" fill="#F7F3ED" font-family="Instrument Serif, Georgia, serif" font-size="78" letter-spacing="-4">
+    Eternia
+  </text>
+  <text x="84" y="302" fill="#EFF4FF" font-family="Sora, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-3.2">
+    The personal continuity
+  </text>
+  <text x="84" y="376" fill="#EFF4FF" font-family="Sora, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-3.2">
+    platform for memory,
+  </text>
+  <text x="84" y="450" fill="#EFF4FF" font-family="Sora, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-3.2">
+    meaning, and trust.
+  </text>
+  <text x="86" y="530" fill="#A7B3CB" font-family="Sora, Arial, sans-serif" font-size="28">
+    Investor-facing landing page for Eternia's governed digital world vision
+  </text>
+
   <defs>
-    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(968 114) rotate(90) scale(140)">
-      <stop stop-color="#D995FF"/>
-      <stop offset="1" stop-color="#D995FF" stop-opacity="0"/>
+    <linearGradient id="bg" x1="96" y1="54" x2="1122" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071120" />
+      <stop offset="0.58" stop-color="#081321" />
+      <stop offset="1" stop-color="#030711" />
+    </linearGradient>
+    <linearGradient id="frame" x1="26" y1="26" x2="1174" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89BEFF" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.08" />
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1006 144) rotate(90) scale(154)">
+      <stop stop-color="#F4B46A" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(228 520) rotate(90) scale(180)">
-      <stop stop-color="#6EF0CF"/>
-      <stop offset="1" stop-color="#6EF0CF" stop-opacity="0"/>
+    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 328) rotate(90) scale(184)">
+      <stop stop-color="#78B3FF" stop-opacity="0.76" />
+      <stop offset="0.48" stop-color="#68E6D7" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
     </radialGradient>
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(236 570) rotate(90) scale(154)">
+      <stop stop-color="#68E6D7" stop-opacity="0.44" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="core" x1="826" y1="248" x2="986" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#69A7FF" />
+    </linearGradient>
+    <linearGradient id="orbitA" x1="740" y1="214" x2="1072" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#89BEFF" />
+    </linearGradient>
+    <linearGradient id="orbitB" x1="696" y1="180" x2="1116" y2="476" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89BEFF" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <linearGradient id="pathGlow" x1="646" y1="462" x2="1084" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <linearGradient id="pathGlowSoft" x1="726" y1="496" x2="1084" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89BEFF" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </linearGradient>
   </defs>
 </svg>

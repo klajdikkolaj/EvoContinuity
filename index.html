@@ -3,31 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EvoContinuity — A personal world that remembers what matters</title>
+    <title>EvoContinuity for Eternia — The personal continuity platform</title>
     <meta
       name="description"
-      content="EvoContinuity is the investor-facing home for Eternia: a governed personal digital world for memory, meaning, guidance, and long-term continuity."
+      content="EvoContinuity is the investor-facing home for Eternia: a governed personal continuity platform for memory, meaning, guidance, and long-horizon trust."
     />
-    <meta property="og:title" content="EvoContinuity — A personal world that remembers what matters" />
-    <meta property="og:description" content="Investor-facing landing page for Eternia's continuity platform vision." />
+    <meta property="og:title" content="EvoContinuity for Eternia — The personal continuity platform" />
+    <meta
+      property="og:description"
+      content="Investor-facing landing page for Eternia's governed digital world for memory, meaning, guidance, and continuity."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="./assets/og-preview.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <a class="brand" href="#hero">
-          <span class="brand-mark">E</span>
-          <span>
+        <a class="brand" href="#hero" aria-label="EvoContinuity home">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-mark-core"></span>
+          </span>
+          <span class="brand-copy">
             <strong>EvoContinuity</strong>
             <small>Investor narrative for Eternia</small>
           </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Primary">
           <a href="#vision">Vision</a>
           <a href="#proof">Proof</a>
           <a href="#market">Market</a>
@@ -37,227 +45,204 @@
       </header>
 
       <main>
-        <section id="hero" class="hero grid-2">
-          <div>
-            <div class="eyebrow">Personal continuity platform</div>
-            <h1>A personal world that remembers what matters.</h1>
-            <p class="lead">
-              EvoContinuity is the investor-facing expression of <strong>Eternia</strong>: a governed digital world where
-              memory, meaning, symbols, guidance, and identity can persist over time without taking control away from the user.
-            </p>
-            <div class="hero-cta">
-              <a class="button primary" href="#market">See the opportunity</a>
-              <a class="button ghost" href="#proof">See what already exists</a>
+        <section id="hero" class="hero">
+          <div class="hero-inner">
+            <div class="hero-copy" data-reveal>
+              <p class="eyebrow">EvoContinuity presents Eternia</p>
+              <p class="brand-word">Eternia</p>
+              <h1>is the personal continuity platform for memory, meaning, and long-horizon trust.</h1>
+              <p class="lead">
+                A governed digital world where memories, rituals, symbols, guidance, and identity can persist over time
+                without taking control away from the user.
+              </p>
+              <div class="hero-cta">
+                <a class="button primary" href="#proof">See the product proof</a>
+                <a class="button ghost" href="#market">See the market pull</a>
+              </div>
+              <p class="hero-note">Grounded product wedge today. Shared digital life over time.</p>
             </div>
-            <ul class="hero-points">
-              <li>Not just chat. Not just journaling. Not just a game.</li>
-              <li>Built around reviewability, reversibility, consent, and trust.</li>
-              <li>Starts grounded today, expands toward long-horizon continuity.</li>
-            </ul>
-          </div>
-          <div class="hero-art card glass">
-            <img src="./assets/world-vision.svg" alt="Abstract symbolic digital world illustration" />
+
+            <div class="hero-visual" data-reveal>
+              <img
+                class="hero-image"
+                src="./assets/world-vision.svg"
+                alt="Continuity atlas illustration representing Eternia's governed personal world"
+              />
+              <div class="signal-card signal-one">
+                <strong>Memory atlas</strong>
+                <span>Places, rituals, symbols, and people that stay coherent over time.</span>
+              </div>
+              <div class="signal-card signal-two">
+                <strong>Governed growth</strong>
+                <span>Reviewable, reversible, trusted.</span>
+              </div>
+              <div class="signal-card signal-three">
+                <strong>Guide layer</strong>
+                <span>Supportive figures operating under explicit boundaries.</span>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section class="stats-strip">
-          <article class="stat card">
-            <span class="stat-value">$288.6B</span>
-            <span class="stat-label">Digital health market in 2024</span>
+        <section class="proof-ribbon" data-reveal>
+          <article>
+            <strong>86</strong>
+            <span>backend modules already in the Eternia repo</span>
           </article>
-          <article class="stat card">
-            <span class="stat-value">$946.0B</span>
-            <span class="stat-label">Projected digital health market by 2030</span>
+          <article>
+            <strong>68</strong>
+            <span>docs covering architecture, operations, and system behavior</span>
           </article>
-          <article class="stat card">
-            <span class="stat-value">1 in 6</span>
-            <span class="stat-label">People globally experiencing loneliness</span>
+          <article>
+            <strong>14</strong>
+            <span>symbolic laws already checked into the codebase</span>
           </article>
-          <article class="stat card">
-            <span class="stat-value">1.1B</span>
-            <span class="stat-label">People living with a mental disorder</span>
+          <article>
+            <strong>219</strong>
+            <span>frontend UI files contributing to the current product surface</span>
           </article>
         </section>
 
-        <section id="vision" class="section grid-2">
-          <div>
+        <section id="vision" class="section">
+          <div class="section-heading narrow" data-reveal>
             <div class="eyebrow">Why this category matters</div>
-            <h2>The current internet remembers data. It does not preserve continuity.</h2>
-            <p>
-              Today’s AI products can answer questions, generate content, or entertain. But they rarely hold a human life in a
-              way that feels coherent, bounded, and durable. EvoContinuity positions Eternia as a new category:
-              <strong>a personal digital world for memory, meaning, and long-term growth.</strong>
-            </p>
-            <p>
-              The wedge is practical: give a person a governed world that can hold memories, rituals, symbols, places, and
-              guide figures such as Virgil — while ensuring that important changes are explicit, reviewable, and reversible.
-            </p>
+            <h2>The internet can store information. It still cannot hold a life.</h2>
           </div>
-          <div class="card stack">
-            <h3>Core promises</h3>
-            <div class="feature-list">
-              <article>
-                <h4>Remember meaning</h4>
-                <p>Turn important memories, dreams, symbols, and relationships into a world you can revisit.</p>
+
+          <div class="story-grid">
+            <p class="story-big" data-reveal>
+              People already leave meaning scattered across chats, calendars, photos, notes, rituals, and private symbols.
+              Eternia turns that fragmentation into one governed world a person can revisit, inspect, and keep shaping.
+            </p>
+
+            <div class="principle-list" data-reveal>
+              <article class="principle">
+                <h3>Memory with structure</h3>
+                <p>Moments become zones, artifacts, and returns instead of isolated notes or disappearing chat history.</p>
               </article>
-              <article>
-                <h4>Grow with guidance</h4>
-                <p>Guide figures can support, challenge, and reflect without becoming invisible decision-makers.</p>
+              <article class="principle">
+                <h3>Guidance without surrender</h3>
+                <p>Figures like Virgil can support and challenge while remaining bounded by explicit rules and visible review.</p>
               </article>
-              <article>
-                <h4>Stay in control</h4>
-                <p>Governance, review, consent, and continuity sit at the center of the product architecture.</p>
+              <article class="principle">
+                <h3>Governance at the center</h3>
+                <p>Consent, checkpoints, reversibility, and policy boundaries are product primitives, not compliance layers.</p>
               </article>
-              <article>
-                <h4>Build toward shared life</h4>
-                <p>Over time, trusted people and bounded AI beings can coexist under explicit shared rules.</p>
+              <article class="principle">
+                <h3>Beyond chat</h3>
+                <p>Not just journaling. Not just a game. Not just an assistant. A personal continuity layer that compounds over years.</p>
               </article>
             </div>
           </div>
         </section>
 
-        <section class="section problem-solution">
-          <div class="section-heading">
-            <div class="eyebrow">The problem</div>
-            <h2>People need continuity, not just utility.</h2>
-          </div>
-          <div class="grid-3">
-            <article class="card">
-              <h3>Fragmentation</h3>
-              <p>Life is split across chats, notes, feeds, calendars, photos, and disconnected AI sessions.</p>
-            </article>
-            <article class="card">
-              <h3>Shallow AI</h3>
-              <p>Most AI systems respond in the moment, but do not preserve values, identity anchors, or long-term meaning.</p>
-            </article>
-            <article class="card">
-              <h3>Trust gaps</h3>
-              <p>Users increasingly want personalization without surrendering control to opaque systems.</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="proof" class="section grid-2 reverse">
-          <div class="card glass">
-            <img src="./assets/governance-core.svg" alt="Abstract illustration of governance and continuity systems" />
-          </div>
-          <div>
+        <section id="proof" class="section">
+          <div class="section-heading" data-reveal>
             <div class="eyebrow">Grounded product proof</div>
-            <h2>Eternia already has real architecture behind the vision.</h2>
-            <p>
-              This is not a vapor-only concept. The current Eternia repository already shows a governed simulation stack, API,
-              frontend surface, observability, and explicit safety/governance work.
-            </p>
-            <div class="proof-grid">
-              <article class="card compact">
-                <strong>86</strong>
-                <span>backend modules in the current repo</span>
-              </article>
-              <article class="card compact">
-                <strong>68</strong>
-                <span>documentation files covering architecture and operations</span>
-              </article>
-              <article class="card compact">
-                <strong>14</strong>
-                <span>symbolic laws checked into the repo</span>
-              </article>
-              <article class="card compact">
-                <strong>219</strong>
-                <span>UI files in the current frontend codebase</span>
-              </article>
+            <h2>Eternia already has real architecture under the category story.</h2>
+          </div>
+
+          <div class="proof-layout">
+            <figure class="media-shell" data-reveal>
+              <img
+                src="./assets/governance-core.svg"
+                alt="Architectural illustration of Eternia's governance, memory, and continuity infrastructure"
+              />
+            </figure>
+
+            <div class="proof-copy" data-reveal>
+              <p>
+                This is not a vapor-only vision. The current Eternia repository already shows a governed simulation stack,
+                API, frontend surface, observability, symbolic laws, and explicit safety boundaries.
+              </p>
+              <div class="proof-stats">
+                <article>
+                  <strong>FastAPI</strong>
+                  <span>Control plane with REST, WebSocket, and simulation-facing endpoints</span>
+                </article>
+                <article>
+                  <strong>React/Vite</strong>
+                  <span>Frontend surface with testing and storybook support already in motion</span>
+                </article>
+                <article>
+                  <strong>Governor model</strong>
+                  <span>Checkpoints, observability, policy boundaries, and reversibility patterns</span>
+                </article>
+                <article>
+                  <strong>Memory + world-state</strong>
+                  <span>Companion systems, rituals, symbolic laws, and continuity infrastructure</span>
+                </article>
+              </div>
+              <ul class="detail-list">
+                <li>Human agency is explicit, inspectable, and preserved.</li>
+                <li>The product already contains the mechanics that make the category defensible.</li>
+                <li>The landing page now frames those mechanics as investable narrative, not just system internals.</li>
+              </ul>
             </div>
-            <ul class="bullet-list">
-              <li>FastAPI control plane with REST, WebSocket, and quantum-inspired endpoints</li>
-              <li>React/Vite frontend with testing and storybook support</li>
-              <li>Governor-oriented architecture, checkpoints, observability, and policy boundaries</li>
-              <li>Memory integration, symbolic laws, rituals, companion systems, and world-state infrastructure</li>
-            </ul>
           </div>
         </section>
 
         <section id="market" class="section">
-          <div class="section-heading narrow">
+          <div class="section-heading narrow" data-reveal>
             <div class="eyebrow">Market opportunity</div>
-            <h2>Three large trends are converging.</h2>
+            <h2>Three convergence curves make this category investable.</h2>
             <p>
-              EvoContinuity sits at the intersection of digital health, AI, immersive/persistent interfaces, and the growing
-              demand for products that support identity, memory, and meaningful long-term engagement.
+              EvoContinuity sits where digital health, AI, immersive interfaces, and the demand for durable identity-supporting
+              products begin to overlap.
             </p>
           </div>
-          <div class="grid-3">
-            <article class="card market-card">
-              <h3>Digital health expansion</h3>
+
+          <div class="market-grid">
+            <article class="market-card" data-reveal>
               <p class="market-number">$288.55B → $946.04B</p>
+              <h3>Digital health expansion</h3>
               <p>Grand View Research estimates the global digital health market at $288.55B in 2024, reaching $946.04B by 2030.</p>
             </article>
-            <article class="card market-card">
+            <article class="market-card" data-reveal>
+              <p class="market-number">$757.58B</p>
               <h3>AI is becoming foundational</h3>
-              <p class="market-number">$757.58B in 2025</p>
               <p>Precedence Research estimates the AI market at $757.58B in 2025, with strong double-digit growth ahead.</p>
             </article>
-            <article class="card market-card">
-              <h3>Persistent immersive worlds are growing</h3>
+            <article class="market-card" data-reveal>
               <p class="market-number">$36.13B → $284.04B</p>
+              <h3>Persistent worlds are rising</h3>
               <p>Precedence Research estimates the VR market at $36.13B in 2024, reaching $284.04B by 2034.</p>
             </article>
           </div>
-          <div class="market-insight card">
-            <h3>Human need is not a niche.</h3>
-            <p>
-              WHO reports that <strong>around 1 in 6 people worldwide experience loneliness</strong>, and that
-              <strong>1.1 billion people</strong> were living with a mental disorder in 2021. Products that help people hold
-              continuity, connection, and guided self-understanding are addressing a structural human need, not just an app trend.
-            </p>
-          </div>
-        </section>
 
-        <section class="section architecture">
-          <div class="section-heading">
-            <div class="eyebrow">Positioning</div>
-            <h2>Where EvoContinuity sits</h2>
-          </div>
-          <div class="positioning-grid">
-            <article class="card">
-              <h3>Not a chatbot</h3>
-              <p>Chat is an interface, not the product. The product is the evolving world and continuity layer underneath it.</p>
-            </article>
-            <article class="card">
-              <h3>Not just journaling</h3>
-              <p>Memories are not only stored — they become places, entities, rituals, and governed experiences.</p>
-            </article>
-            <article class="card">
-              <h3>Not only immersive media</h3>
-              <p>The goal is not spectacle. It is meaningful persistence with rules, review, and long-term identity coherence.</p>
-            </article>
-            <article class="card accent">
-              <h3>A new category</h3>
-              <p><strong>Personal continuity platform</strong>: memory + symbolic worldbuilding + guidance + governance + trusted shared life.</p>
-            </article>
+          <div class="market-insight" data-reveal>
+            <strong>Human need is not a niche.</strong>
+            <p>
+              WHO reports that around <strong>1 in 6 people worldwide experience loneliness</strong>, while
+              <strong>1.1 billion people</strong> were living with a mental disorder in 2021. Continuity, connection, and
+              guided self-understanding are structural needs, not app-store curiosities.
+            </p>
           </div>
         </section>
 
         <section id="roadmap" class="section">
-          <div class="section-heading narrow">
+          <div class="section-heading narrow" data-reveal>
             <div class="eyebrow">Roadmap</div>
             <h2>Grounded wedge first. Shared digital life later.</h2>
           </div>
+
           <div class="timeline">
-            <article class="timeline-step card">
+            <article class="timeline-step" data-reveal>
               <span class="step">01</span>
               <h3>Governed personal world</h3>
               <p>Reviewable memory, symbolic zones, rituals, checkpoints, world-state governance, and user-visible continuity.</p>
             </article>
-            <article class="timeline-step card">
+            <article class="timeline-step" data-reveal>
               <span class="step">02</span>
               <h3>Guide-layer intelligence</h3>
               <p>Figures like Virgil help interpret, challenge, and support without bypassing consent or continuity boundaries.</p>
             </article>
-            <article class="timeline-step card">
+            <article class="timeline-step" data-reveal>
               <span class="step">03</span>
               <h3>Invite-only shared worlds</h3>
               <p>Trusted people and bounded AI beings enter under explicit rules, safety constraints, and identity protections.</p>
             </article>
-            <article class="timeline-step card">
+            <article class="timeline-step" data-reveal>
               <span class="step">04</span>
               <h3>Long-horizon continuity infrastructure</h3>
               <p>A durable digital habitat for memory, meaning, mentorship, shared culture, and human-AI coexistence.</p>
@@ -265,31 +250,43 @@
           </div>
         </section>
 
-        <section class="section quote-banner">
-          <div class="card glass quote-card">
-            <p>
-              “Eternia is a personal digital world that remembers what matters, helps you grow, and stays under your control.”
-            </p>
-          </div>
+        <section class="quote-panel" data-reveal>
+          <p class="quote-copy">
+            “Eternia is a personal digital world that remembers what matters, helps you grow, and stays under your control.”
+          </p>
         </section>
 
-        <section id="contact" class="section contact-section grid-2">
-          <div>
+        <section id="contact" class="section">
+          <div class="section-heading narrow" data-reveal>
             <div class="eyebrow">For investors and collaborators</div>
-            <h2>Built for people who think continuity will become a core layer of computing.</h2>
+            <h2>This page is the front door. The next layer is the deck, demo, and product footage.</h2>
             <p>
-              EvoContinuity is meant to explain the category clearly: grounded architecture now, long-range world vision later.
-              It is the investor front door for Eternia.
+              EvoContinuity should explain the category clearly in minutes, then move people into architecture, roadmap, and
+              current product evidence.
             </p>
           </div>
-          <div class="card stack">
-            <h3>Next assets to add</h3>
-            <ul class="bullet-list">
-              <li>Founder/contact CTA wiring</li>
-              <li>Deck download or data room CTA</li>
-              <li>Screenshots/video from current Eternia UI</li>
-              <li>Optional waitlist or investor interest form</li>
-            </ul>
+
+          <div class="contact-layout">
+            <div class="cta-panel" data-reveal>
+              <h3>Best next assets to add</h3>
+              <ul class="detail-list">
+                <li>Founder and contact CTA wiring</li>
+                <li>Deck download or data-room handoff</li>
+                <li>Recorded walkthroughs from the current Eternia UI</li>
+                <li>Investor or collaborator interest capture</li>
+              </ul>
+            </div>
+
+            <div class="cta-copy" data-reveal>
+              <p class="story-big">
+                The investor takeaway should be simple: Eternia is not another thin AI shell. It is infrastructure for
+                personal continuity, with a real governed product wedge already taking shape.
+              </p>
+              <div class="hero-cta">
+                <a class="button primary" href="#proof">Review the architecture</a>
+                <a class="button ghost" href="#roadmap">See the roadmap</a>
+              </div>
+            </div>
           </div>
         </section>
       </main>
