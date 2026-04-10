@@ -2,67 +2,76 @@
   <rect width="1400" height="1100" rx="52" fill="url(#bg)" />
   <rect x="84" y="86" width="1232" height="928" rx="42" fill="url(#shellFill)" stroke="url(#shellStroke)" />
 
-  <g opacity="0.78">
-    <circle cx="1140" cy="176" r="170" fill="url(#warmGlow)" />
-    <circle cx="228" cy="920" r="220" fill="url(#seaGlow)" />
+  <g opacity="0.8">
+    <circle cx="1138" cy="176" r="168" fill="url(#warmGlow)" />
+    <circle cx="214" cy="920" r="214" fill="url(#seaGlow)" />
   </g>
 
-  <g opacity="0.4">
-    <path d="M178 952H1224" stroke="url(#baseline)" stroke-width="2" />
-    <path d="M198 244H1202" stroke="url(#topline)" stroke-width="2" stroke-dasharray="10 14" />
+  <g opacity="0.36">
+    <path d="M176 952H1224" stroke="url(#baseline)" stroke-width="2" />
+    <path d="M208 236H1206" stroke="url(#topline)" stroke-width="2" stroke-dasharray="10 14" />
+  </g>
+
+  <g filter="url(#coreShadow)">
+    <path d="M560 274L708 202L854 274L912 432L854 590L708 662L560 590L502 432L560 274Z" fill="url(#governorHex)" stroke="url(#governorStroke)" stroke-width="2" />
+    <path d="M622 346L708 304L792 346L824 432L792 518L708 560L622 518L590 432L622 346Z" fill="url(#innerHex)" stroke="url(#innerStroke)" stroke-width="2" />
+    <circle cx="708" cy="432" r="88" fill="url(#corePulse)" />
+  </g>
+
+  <g opacity="0.94">
+    <path d="M708 156V304" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" />
+    <path d="M452 316L620 388" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M966 316L796 388" stroke="url(#linkWarm)" stroke-width="4" stroke-linecap="round" />
+    <path d="M500 736L634 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M916 736L782 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M708 560V904" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" />
   </g>
 
   <g filter="url(#panelShadow)">
-    <path d="M558 266L708 198L852 266L906 428L852 592L708 660L558 592L504 428L558 266Z" fill="url(#coreHex)" stroke="url(#coreStroke)" stroke-width="2" />
-    <path d="M620 342L708 302L796 342L828 430L796 518L708 558L620 518L588 430L620 342Z" fill="url(#innerHex)" stroke="url(#innerStroke)" stroke-width="2" />
-    <circle cx="708" cy="430" r="86" fill="url(#governorCore)" />
+    <rect x="180" y="202" width="300" height="176" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="924" y="202" width="300" height="176" rx="28" fill="url(#panelFill)" stroke="url(#warmStroke)" />
+    <rect x="232" y="698" width="320" height="180" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="864" y="698" width="320" height="180" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
   </g>
+
+  <text x="630" y="406" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Governor</text>
+  <text x="614" y="454" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Review and policy</text>
+
+  <text x="214" y="262" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Memory</text>
+  <text x="214" y="304" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Anchors and traces</text>
+
+  <text x="958" y="262" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">World state</text>
+  <text x="958" y="304" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Zones and beings</text>
+
+  <text x="266" y="758" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Reversibility</text>
+  <text x="266" y="802" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Checkpoints and rollback</text>
+
+  <text x="898" y="758" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Guidance</text>
+  <text x="898" y="802" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Virgil and bounded support</text>
 
   <g opacity="0.92">
-    <path d="M708 148V302" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" />
-    <path d="M448 304L620 384" stroke="url(#linkA)" stroke-width="4" stroke-linecap="round" />
-    <path d="M972 304L796 384" stroke="url(#linkA)" stroke-width="4" stroke-linecap="round" />
-    <path d="M500 726L634 544" stroke="url(#linkB)" stroke-width="4" stroke-linecap="round" />
-    <path d="M914 726L780 544" stroke="url(#linkB)" stroke-width="4" stroke-linecap="round" />
-    <path d="M708 558V902" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" />
-  </g>
-
-  <g filter="url(#chamberShadow)">
-    <path d="M286 230L400 172L514 230L550 362L514 494L400 552L286 494L250 362L286 230Z" fill="url(#memoryVault)" stroke="url(#vaultStroke)" />
-    <path d="M902 230L1016 172L1130 230L1166 362L1130 494L1016 552L902 494L866 362L902 230Z" fill="url(#guideVault)" stroke="url(#vaultStroke)" />
-    <path d="M340 646L452 588L564 646L598 778L564 910L452 968L340 910L306 778L340 646Z" fill="url(#checkpointVault)" stroke="url(#vaultStroke)" />
-    <path d="M852 646L964 588L1076 646L1110 778L1076 910L964 968L852 910L818 778L852 646Z" fill="url(#worldVault)" stroke="url(#vaultStroke)" />
-  </g>
-
-  <g opacity="0.95">
-    <circle cx="400" cy="362" r="68" fill="url(#memoryNode)" />
-    <circle cx="1016" cy="362" r="68" fill="url(#guideNode)" />
-    <circle cx="452" cy="778" r="68" fill="url(#checkpointNode)" />
-    <circle cx="964" cy="778" r="68" fill="url(#worldNode)" />
+    <circle cx="388" cy="320" r="48" fill="url(#memoryNode)" />
+    <circle cx="1018" cy="320" r="48" fill="url(#worldNode)" />
+    <circle cx="500" cy="818" r="48" fill="url(#checkpointNode)" />
+    <circle cx="1130" cy="818" r="48" fill="url(#guideNode)" />
   </g>
 
   <g opacity="0.88">
-    <path d="M708 128L742 88L788 106L780 160L708 128Z" fill="url(#shardWarm)" />
-    <path d="M226 604L290 564L346 608L300 682L226 604Z" fill="url(#shardCool)" />
-    <path d="M1124 594L1184 552L1242 606L1184 680L1124 594Z" fill="url(#shardWarm)" />
-    <path d="M1180 796L1242 754L1288 806L1236 874L1180 796Z" fill="url(#shardSea)" />
-  </g>
-
-  <g filter="url(#haloGlow)">
-    <circle cx="708" cy="430" r="144" stroke="url(#haloStroke)" stroke-width="2" />
+    <rect x="664" y="112" width="88" height="44" rx="22" fill="#0C1430" stroke="#294C77" />
+    <text x="682" y="141" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">STACK</text>
   </g>
 
   <g opacity="0.9">
-    <circle cx="708" cy="148" r="12" fill="#F4B46A" />
-    <circle cx="708" cy="902" r="12" fill="#68E6D7" />
-    <circle cx="540" cy="344" r="10" fill="#8ABEFF" />
-    <circle cx="876" cy="344" r="10" fill="#8ABEFF" />
+    <circle cx="708" cy="156" r="12" fill="#F4B46A" />
+    <circle cx="708" cy="904" r="12" fill="#68E6D7" />
+    <circle cx="530" cy="350" r="10" fill="#8ABEFF" />
+    <circle cx="886" cy="350" r="10" fill="#8ABEFF" />
     <circle cx="598" cy="594" r="10" fill="#68E6D7" />
     <circle cx="818" cy="594" r="10" fill="#68E6D7" />
   </g>
 
   <defs>
-    <linearGradient id="bg" x1="124" y1="88" x2="1244" y2="1044" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="122" y1="84" x2="1242" y2="1044" gradientUnits="userSpaceOnUse">
       <stop stop-color="#08111F" />
       <stop offset="0.54" stop-color="#071223" />
       <stop offset="1" stop-color="#020611" />
@@ -75,118 +84,91 @@
       <stop stop-color="#24436C" stop-opacity="0.4" />
       <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.16" />
     </linearGradient>
-    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1140 176) rotate(90) scale(170)">
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1138 176) rotate(90) scale(168)">
       <stop stop-color="#F4B46A" stop-opacity="0.88" />
       <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(228 920) rotate(90) scale(220)">
-      <stop stop-color="#68E6D7" stop-opacity="0.64" />
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(214 920) rotate(90) scale(214)">
+      <stop stop-color="#68E6D7" stop-opacity="0.62" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="baseline" x1="178" y1="952" x2="1224" y2="952" gradientUnits="userSpaceOnUse">
+    <linearGradient id="baseline" x1="176" y1="952" x2="1224" y2="952" gradientUnits="userSpaceOnUse">
       <stop stop-color="#17263F" stop-opacity="0" />
       <stop offset="0.5" stop-color="#38547D" stop-opacity="0.5" />
       <stop offset="1" stop-color="#17263F" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="topline" x1="198" y1="244" x2="1202" y2="244" gradientUnits="userSpaceOnUse">
+    <linearGradient id="topline" x1="208" y1="236" x2="1206" y2="236" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" stop-opacity="0" />
       <stop offset="0.5" stop-color="#68E6D7" stop-opacity="0.3" />
       <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="coreHex" x1="558" y1="198" x2="906" y2="660" gradientUnits="userSpaceOnUse">
+    <linearGradient id="governorHex" x1="560" y1="202" x2="912" y2="662" gradientUnits="userSpaceOnUse">
       <stop stop-color="#18325D" />
       <stop offset="1" stop-color="#10213F" />
     </linearGradient>
-    <linearGradient id="innerHex" x1="620" y1="302" x2="828" y2="558" gradientUnits="userSpaceOnUse">
+    <linearGradient id="governorStroke" x1="560" y1="202" x2="854" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8ABEFF" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.22" />
+    </linearGradient>
+    <linearGradient id="innerHex" x1="622" y1="304" x2="824" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#132444" />
       <stop offset="1" stop-color="#0F1C35" />
     </linearGradient>
-    <linearGradient id="coreStroke" x1="558" y1="198" x2="852" y2="660" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8ABEFF" stop-opacity="0.48" />
-      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.24" />
-    </linearGradient>
-    <linearGradient id="innerStroke" x1="620" y1="302" x2="796" y2="558" gradientUnits="userSpaceOnUse">
+    <linearGradient id="innerStroke" x1="622" y1="304" x2="792" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F4B46A" stop-opacity="0.42" />
       <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.16" />
     </linearGradient>
-    <radialGradient id="governorCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 430) rotate(90) scale(86)">
+    <radialGradient id="corePulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 432) rotate(90) scale(88)">
       <stop stop-color="#B5FFF5" />
       <stop offset="0.48" stop-color="#79DDE5" />
       <stop offset="1" stop-color="#69A7FF" />
     </radialGradient>
-    <linearGradient id="verticalFlow" x1="708" y1="148" x2="708" y2="902" gradientUnits="userSpaceOnUse">
+    <linearGradient id="verticalFlow" x1="708" y1="156" x2="708" y2="904" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F4B46A" />
       <stop offset="0.52" stop-color="#8ABEFF" />
       <stop offset="1" stop-color="#68E6D7" />
     </linearGradient>
-    <linearGradient id="linkA" x1="448" y1="304" x2="972" y2="304" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkCool" x1="452" y1="316" x2="916" y2="736" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#8ABEFF" />
     </linearGradient>
-    <linearGradient id="linkB" x1="500" y1="726" x2="914" y2="726" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8ABEFF" />
-      <stop offset="1" stop-color="#68E6D7" />
-    </linearGradient>
-    <linearGradient id="memoryVault" x1="286" y1="172" x2="550" y2="552" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#10203C" />
-      <stop offset="1" stop-color="#132951" />
-    </linearGradient>
-    <linearGradient id="guideVault" x1="902" y1="172" x2="1166" y2="552" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#13254A" />
-      <stop offset="1" stop-color="#1A2A4D" />
-    </linearGradient>
-    <linearGradient id="checkpointVault" x1="340" y1="588" x2="598" y2="968" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0E1833" />
-      <stop offset="1" stop-color="#16284E" />
-    </linearGradient>
-    <linearGradient id="worldVault" x1="852" y1="588" x2="1110" y2="968" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#112246" />
-      <stop offset="1" stop-color="#1A335C" />
-    </linearGradient>
-    <linearGradient id="vaultStroke" x1="250" y1="172" x2="1110" y2="968" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8ABEFF" stop-opacity="0.36" />
-      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.18" />
-    </linearGradient>
-    <radialGradient id="memoryNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 362) rotate(90) scale(68)">
-      <stop stop-color="#A6FFF2" />
-      <stop offset="1" stop-color="#68E6D7" />
-    </radialGradient>
-    <radialGradient id="guideNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1016 362) rotate(90) scale(68)">
-      <stop stop-color="#FFD7A6" />
-      <stop offset="1" stop-color="#F4B46A" />
-    </radialGradient>
-    <radialGradient id="checkpointNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(452 778) rotate(90) scale(68)">
-      <stop stop-color="#C5DBFF" />
-      <stop offset="1" stop-color="#8ABEFF" />
-    </radialGradient>
-    <radialGradient id="worldNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(964 778) rotate(90) scale(68)">
-      <stop stop-color="#C5DBFF" />
-      <stop offset="1" stop-color="#68E6D7" />
-    </radialGradient>
-    <linearGradient id="shardWarm" x1="708" y1="88" x2="788" y2="160" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkWarm" x1="966" y1="316" x2="796" y2="388" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F4B46A" />
       <stop offset="1" stop-color="#8ABEFF" />
     </linearGradient>
-    <linearGradient id="shardCool" x1="226" y1="564" x2="346" y2="682" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#68E6D7" />
+    <linearGradient id="panelFill" x1="180" y1="202" x2="1184" y2="878" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1430" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#0A1225" stop-opacity="0.94" />
+    </linearGradient>
+    <linearGradient id="panelStroke" x1="180" y1="202" x2="1184" y2="878" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#294B78" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="warmStroke" x1="924" y1="202" x2="1224" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.18" />
+    </linearGradient>
+    <radialGradient id="memoryNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(388 320) rotate(90) scale(48)">
+      <stop stop-color="#A7FFF2" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </radialGradient>
+    <radialGradient id="worldNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1018 320) rotate(90) scale(48)">
+      <stop stop-color="#C9DCFF" />
       <stop offset="1" stop-color="#8ABEFF" />
-    </linearGradient>
-    <linearGradient id="shardSea" x1="1180" y1="754" x2="1288" y2="874" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#68E6D7" />
-      <stop offset="1" stop-color="#4B6FE3" />
-    </linearGradient>
-    <linearGradient id="haloStroke" x1="564" y1="286" x2="852" y2="574" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#68E6D7" />
+    </radialGradient>
+    <radialGradient id="checkpointNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 818) rotate(90) scale(48)">
+      <stop stop-color="#C9DCFF" />
       <stop offset="1" stop-color="#8ABEFF" />
-    </linearGradient>
-    <filter id="panelShadow" x="456" y="154" width="498" height="552" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#000000" flood-opacity="0.36" />
+    </radialGradient>
+    <radialGradient id="guideNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1130 818) rotate(90) scale(48)">
+      <stop stop-color="#FFD7A6" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </radialGradient>
+    <filter id="coreShadow" x="460" y="160" width="494" height="544" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#000000" flood-opacity="0.34" />
     </filter>
-    <filter id="chamberShadow" x="208" y="142" width="1000" height="858" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="26" stdDeviation="32" flood-color="#000000" flood-opacity="0.28" />
-    </filter>
-    <filter id="haloGlow" x="554" y="276" width="308" height="308" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="4" />
+    <filter id="panelShadow" x="144" y="174" width="1116" height="740" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.28" />
     </filter>
   </defs>
 </svg>
