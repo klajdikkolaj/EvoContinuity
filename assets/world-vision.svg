@@ -1,64 +1,186 @@
-<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="900" rx="44" fill="url(#bg)"/>
-  <g opacity="0.55">
-    <circle cx="204" cy="210" r="130" fill="url(#orb1)"/>
-    <circle cx="980" cy="172" r="110" fill="url(#orb2)"/>
-    <circle cx="965" cy="660" r="170" fill="url(#orb3)"/>
+<svg width="1400" height="1100" viewBox="0 0 1400 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1100" rx="52" fill="url(#bg)" />
+  <rect x="34" y="34" width="1332" height="1032" rx="40" stroke="url(#frameStroke)" />
+
+  <g opacity="0.82">
+    <circle cx="1098" cy="184" r="170" fill="url(#warmGlow)" />
+    <circle cx="978" cy="486" r="278" fill="url(#coolGlow)" />
+    <circle cx="262" cy="834" r="240" fill="url(#seaGlow)" />
   </g>
-  <path d="M140 590C257 434 417 366 619 377C802 387 930 492 1062 642" stroke="url(#path1)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 16"/>
-  <path d="M188 634C347 615 492 660 640 604C776 552 842 436 1034 412" stroke="url(#path2)" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 14"/>
-  <g filter="url(#glow)">
-    <circle cx="257" cy="520" r="16" fill="#6EF0CF"/>
-    <circle cx="492" cy="432" r="14" fill="#85A8FF"/>
-    <circle cx="728" cy="522" r="14" fill="#D995FF"/>
-    <circle cx="912" cy="566" r="16" fill="#6EF0CF"/>
+
+  <g opacity="0.32">
+    <path d="M88 834C236 740 364 688 516 674C680 658 842 686 994 766C1128 836 1232 918 1310 1018" stroke="url(#horizonLine)" stroke-width="2" />
+    <path d="M142 766C288 694 438 658 610 654C786 650 962 694 1180 842" stroke="url(#horizonLineSoft)" stroke-width="2" stroke-dasharray="12 16" />
   </g>
-  <g opacity="0.9">
-    <rect x="138" y="146" width="216" height="132" rx="24" fill="#0B1830" stroke="#20375F"/>
-    <text x="168" y="198" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Memory zones</text>
-    <text x="168" y="234" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Worlds shaped by</text>
-    <text x="168" y="258" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">meaning and return</text>
+
+  <g filter="url(#coreGlow)">
+    <circle cx="934" cy="486" r="202" fill="url(#coreHalo)" />
   </g>
-  <g opacity="0.95">
-    <rect x="784" y="248" width="254" height="142" rx="26" fill="#0B1830" stroke="#27456F"/>
-    <text x="816" y="306" fill="#ECF1FF" font-family="Inter, Arial" font-size="26" font-weight="700">Virgil</text>
-    <text x="816" y="340" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Guide figure under</text>
-    <text x="816" y="365" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">bounded rules</text>
+
+  <circle cx="934" cy="486" r="202" fill="url(#coreFill)" />
+  <circle cx="934" cy="486" r="292" stroke="url(#orbitA)" stroke-width="2" opacity="0.56" />
+  <ellipse cx="934" cy="486" rx="372" ry="260" transform="rotate(-16 934 486)" stroke="url(#orbitB)" stroke-width="2" opacity="0.36" />
+  <ellipse cx="934" cy="486" rx="408" ry="302" transform="rotate(18 934 486)" stroke="url(#orbitC)" stroke-width="1.5" opacity="0.24" />
+
+  <g filter="url(#architectureShadow)">
+    <rect x="454" y="290" width="124" height="250" rx="36" fill="url(#pillarA)" stroke="url(#pillarStroke)" />
+    <rect x="612" y="224" width="142" height="332" rx="40" fill="url(#pillarB)" stroke="url(#pillarStroke)" />
+    <rect x="792" y="186" width="168" height="382" rx="46" fill="url(#pillarC)" stroke="url(#pillarStrokeStrong)" />
   </g>
-  <g opacity="0.9">
-    <rect x="420" y="616" width="360" height="152" rx="28" fill="#0B1830" stroke="#294266"/>
-    <text x="458" y="672" fill="#ECF1FF" font-family="Inter, Arial" font-size="26" font-weight="700">Governed continuity</text>
-    <text x="458" y="710" fill="#A9B6D3" font-family="Inter, Arial" font-size="20">Reviewable. Reversible.</text>
-    <text x="458" y="738" fill="#A9B6D3" font-family="Inter, Arial" font-size="20">Built for trust over time.</text>
+
+  <g opacity="0.92">
+    <path d="M226 834C348 722 468 642 622 612C790 580 946 608 1076 710" stroke="url(#pathGlow)" stroke-width="6" stroke-linecap="round" />
+    <path d="M368 868C448 792 528 738 632 708C744 676 852 682 944 748" stroke="url(#pathGlowSoft)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 16" />
   </g>
+
+  <g opacity="0.94">
+    <circle cx="500" cy="410" r="10" fill="#8FEBDD" />
+    <circle cx="684" cy="354" r="10" fill="#8ABEFF" />
+    <circle cx="878" cy="316" r="12" fill="#F4B46A" />
+    <circle cx="1036" cy="744" r="12" fill="#8FEBDD" />
+    <circle cx="758" cy="790" r="10" fill="#8ABEFF" />
+    <circle cx="562" cy="822" r="12" fill="#F4B46A" />
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="118" y="126" width="320" height="172" rx="28" fill="url(#cardFill)" stroke="url(#cardStroke)" />
+    <rect x="1008" y="250" width="246" height="156" rx="26" fill="url(#cardFill)" stroke="url(#warmStroke)" />
+    <rect x="456" y="768" width="492" height="182" rx="30" fill="url(#cardFill)" stroke="url(#cardStroke)" />
+  </g>
+
+  <path d="M438 238L580 322" stroke="url(#linkCool)" stroke-width="3" stroke-linecap="round" />
+  <path d="M1008 328L960 368" stroke="url(#linkWarm)" stroke-width="3" stroke-linecap="round" />
+  <path d="M702 768L734 556" stroke="url(#linkCool)" stroke-width="3" stroke-linecap="round" />
+
+  <text x="150" y="182" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Memory zones</text>
+  <text x="150" y="226" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Worlds shaped by</text>
+  <text x="150" y="258" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">meaning and return.</text>
+
+  <text x="1036" y="308" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Virgil</text>
+  <text x="1036" y="350" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="23">Guide figure under</text>
+  <text x="1036" y="380" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="23">bounded rules.</text>
+
+  <text x="494" y="834" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Governed continuity</text>
+  <text x="494" y="882" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="25">Reviewable. Reversible.</text>
+  <text x="494" y="916" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="25">Built for trust over time.</text>
+
+  <g opacity="0.78">
+    <rect x="708" y="114" width="170" height="44" rx="22" fill="#0B1430" stroke="#233D6A" />
+    <text x="742" y="144" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.6">PERSONAL WORLD</text>
+  </g>
+
   <defs>
-    <linearGradient id="bg" x1="94" y1="88" x2="1098" y2="841" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1630"/>
-      <stop offset="1" stop-color="#07111F"/>
+    <linearGradient id="bg" x1="126" y1="84" x2="1238" y2="1048" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071120" />
+      <stop offset="0.54" stop-color="#09142B" />
+      <stop offset="1" stop-color="#030711" />
     </linearGradient>
-    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(204 210) rotate(90) scale(130)">
-      <stop stop-color="#6EF0CF"/>
-      <stop offset="1" stop-color="#6EF0CF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 172) rotate(90) scale(110)">
-      <stop stop-color="#D995FF"/>
-      <stop offset="1" stop-color="#D995FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965 660) rotate(90) scale(170)">
-      <stop stop-color="#85A8FF"/>
-      <stop offset="1" stop-color="#85A8FF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="path1" x1="140" y1="590" x2="1062" y2="642" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6EF0CF"/>
-      <stop offset="1" stop-color="#85A8FF"/>
+    <linearGradient id="frameStroke" x1="98" y1="74" x2="1310" y2="1052" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="0.52" stop-color="#78B3FF" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05" />
     </linearGradient>
-    <linearGradient id="path2" x1="188" y1="634" x2="1034" y2="412" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#85A8FF"/>
-      <stop offset="1" stop-color="#D995FF"/>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1098 184) rotate(90) scale(170)">
+      <stop stop-color="#F4B46A" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(978 486) rotate(90) scale(278)">
+      <stop stop-color="#74B6FF" stop-opacity="0.82" />
+      <stop offset="0.52" stop-color="#68E6D7" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(262 834) rotate(90) scale(240)">
+      <stop stop-color="#68E6D7" stop-opacity="0.56" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="horizonLine" x1="88" y1="834" x2="1310" y2="1018" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162540" stop-opacity="0" />
+      <stop offset="0.42" stop-color="#38547D" />
+      <stop offset="1" stop-color="#162540" stop-opacity="0" />
     </linearGradient>
-    <filter id="glow" x="221" y="396" width="727" height="206" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feBlend in="SourceGraphic" in2="blur"/>
+    <linearGradient id="horizonLineSoft" x1="142" y1="766" x2="1180" y2="842" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" stop-opacity="0" />
+      <stop offset="0.52" stop-color="#68E6D7" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="coreHalo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(934 486) rotate(90) scale(202)">
+      <stop stop-color="#B8FCF4" />
+      <stop offset="0.5" stop-color="#7DE0E5" />
+      <stop offset="1" stop-color="#7DE0E5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="coreFill" x1="786" y1="340" x2="1062" y2="642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#69A7FF" />
+    </linearGradient>
+    <linearGradient id="orbitA" x1="642" y1="294" x2="1226" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#89BEFF" />
+    </linearGradient>
+    <linearGradient id="orbitB" x1="624" y1="220" x2="1272" y2="808" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89BEFF" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <linearGradient id="orbitC" x1="566" y1="188" x2="1288" y2="846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <linearGradient id="pillarA" x1="466" y1="290" x2="578" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111E3C" />
+      <stop offset="1" stop-color="#1C2F57" />
+    </linearGradient>
+    <linearGradient id="pillarB" x1="628" y1="224" x2="742" y2="556" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132449" />
+      <stop offset="1" stop-color="#223C6A" />
+    </linearGradient>
+    <linearGradient id="pillarC" x1="810" y1="186" x2="952" y2="568" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18315D" />
+      <stop offset="1" stop-color="#274D86" />
+    </linearGradient>
+    <linearGradient id="pillarStroke" x1="454" y1="290" x2="906" y2="568" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8ABEFF" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.18" />
+    </linearGradient>
+    <linearGradient id="pillarStrokeStrong" x1="792" y1="186" x2="960" y2="568" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="pathGlow" x1="226" y1="834" x2="1076" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="0.54" stop-color="#89BEFF" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <linearGradient id="pathGlowSoft" x1="368" y1="868" x2="944" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89BEFF" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </linearGradient>
+    <linearGradient id="cardFill" x1="164" y1="122" x2="1038" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1430" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#0A1225" stop-opacity="0.94" />
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="118" y1="126" x2="948" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#294B78" stop-opacity="0.48" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="warmStroke" x1="1008" y1="250" x2="1254" y2="406" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" stop-opacity="0.44" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.18" />
+    </linearGradient>
+    <linearGradient id="linkCool" x1="438" y1="238" x2="734" y2="768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#8ABEFF" />
+    </linearGradient>
+    <linearGradient id="linkWarm" x1="960" y1="368" x2="1036" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </linearGradient>
+    <filter id="coreGlow" x="688" y="240" width="492" height="492" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="42" />
+    </filter>
+    <filter id="architectureShadow" x="406" y="144" width="618" height="472" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="32" stdDeviation="30" flood-color="#000000" flood-opacity="0.32" />
+    </filter>
+    <filter id="cardShadow" x="86" y="96" width="1210" height="894" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000000" flood-opacity="0.3" />
     </filter>
   </defs>
 </svg>

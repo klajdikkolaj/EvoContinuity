@@ -1,51 +1,174 @@
-<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="900" rx="44" fill="url(#bg)"/>
-  <rect x="136" y="120" width="928" height="660" rx="34" fill="#0A1529" stroke="#223A5B"/>
-  <rect x="190" y="188" width="220" height="132" rx="22" fill="#12213F" stroke="#305481"/>
-  <rect x="490" y="164" width="220" height="132" rx="22" fill="#12213F" stroke="#305481"/>
-  <rect x="790" y="188" width="220" height="132" rx="22" fill="#12213F" stroke="#305481"/>
-  <rect x="328" y="460" width="220" height="132" rx="22" fill="#12213F" stroke="#305481"/>
-  <rect x="652" y="460" width="220" height="132" rx="22" fill="#12213F" stroke="#305481"/>
-  <path d="M410 254H490" stroke="url(#line1)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M710 254H790" stroke="url(#line1)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M600 296V394" stroke="url(#line2)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"/>
-  <path d="M600 394L438 460" stroke="url(#line2)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M600 394L762 460" stroke="url(#line2)" stroke-width="4" stroke-linecap="round"/>
-  <text x="226" y="242" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Memory</text>
-  <text x="226" y="276" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Anchors and traces</text>
-  <text x="532" y="220" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Governor</text>
-  <text x="532" y="254" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Review and policy</text>
-  <text x="834" y="242" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">World state</text>
-  <text x="834" y="276" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Zones and beings</text>
-  <text x="356" y="514" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Reversibility</text>
-  <text x="356" y="548" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Checkpoints and rollback</text>
-  <text x="688" y="514" fill="#ECF1FF" font-family="Inter, Arial" font-size="24" font-weight="700">Guidance</text>
-  <text x="688" y="548" fill="#A9B6D3" font-family="Inter, Arial" font-size="18">Virgil and bounded support</text>
-  <circle cx="600" cy="394" r="18" fill="#6EF0CF"/>
-  <g opacity="0.5">
-    <circle cx="1020" cy="150" r="80" fill="url(#glow1)"/>
-    <circle cx="180" cy="730" r="100" fill="url(#glow2)"/>
+<svg width="1400" height="1100" viewBox="0 0 1400 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1100" rx="52" fill="url(#bg)" />
+  <rect x="84" y="86" width="1232" height="928" rx="42" fill="url(#shellFill)" stroke="url(#shellStroke)" />
+
+  <g opacity="0.8">
+    <circle cx="1138" cy="176" r="168" fill="url(#warmGlow)" />
+    <circle cx="214" cy="920" r="214" fill="url(#seaGlow)" />
   </g>
+
+  <g opacity="0.36">
+    <path d="M176 952H1224" stroke="url(#baseline)" stroke-width="2" />
+    <path d="M208 236H1206" stroke="url(#topline)" stroke-width="2" stroke-dasharray="10 14" />
+  </g>
+
+  <g filter="url(#coreShadow)">
+    <path d="M560 274L708 202L854 274L912 432L854 590L708 662L560 590L502 432L560 274Z" fill="url(#governorHex)" stroke="url(#governorStroke)" stroke-width="2" />
+    <path d="M622 346L708 304L792 346L824 432L792 518L708 560L622 518L590 432L622 346Z" fill="url(#innerHex)" stroke="url(#innerStroke)" stroke-width="2" />
+    <circle cx="708" cy="432" r="88" fill="url(#corePulse)" />
+  </g>
+
+  <g opacity="0.94">
+    <path d="M708 156V304" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" />
+    <path d="M452 316L620 388" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M966 316L796 388" stroke="url(#linkWarm)" stroke-width="4" stroke-linecap="round" />
+    <path d="M500 736L634 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M916 736L782 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M708 560V904" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" />
+  </g>
+
+  <g filter="url(#panelShadow)">
+    <rect x="180" y="202" width="300" height="176" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="924" y="202" width="300" height="176" rx="28" fill="url(#panelFill)" stroke="url(#warmStroke)" />
+    <rect x="232" y="698" width="320" height="180" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="864" y="698" width="320" height="180" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+  </g>
+
+  <text x="630" y="406" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Governor</text>
+  <text x="614" y="454" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Review and policy</text>
+
+  <text x="214" y="262" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Memory</text>
+  <text x="214" y="304" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Anchors and traces</text>
+
+  <text x="958" y="262" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">World state</text>
+  <text x="958" y="304" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Zones and beings</text>
+
+  <text x="266" y="758" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Reversibility</text>
+  <text x="266" y="802" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Checkpoints and rollback</text>
+
+  <text x="898" y="758" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Guidance</text>
+  <text x="898" y="802" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Virgil and bounded support</text>
+
+  <g opacity="0.92">
+    <circle cx="388" cy="320" r="48" fill="url(#memoryNode)" />
+    <circle cx="1018" cy="320" r="48" fill="url(#worldNode)" />
+    <circle cx="500" cy="818" r="48" fill="url(#checkpointNode)" />
+    <circle cx="1130" cy="818" r="48" fill="url(#guideNode)" />
+  </g>
+
+  <g opacity="0.88">
+    <rect x="664" y="112" width="88" height="44" rx="22" fill="#0C1430" stroke="#294C77" />
+    <text x="682" y="141" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">STACK</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="708" cy="156" r="12" fill="#F4B46A" />
+    <circle cx="708" cy="904" r="12" fill="#68E6D7" />
+    <circle cx="530" cy="350" r="10" fill="#8ABEFF" />
+    <circle cx="886" cy="350" r="10" fill="#8ABEFF" />
+    <circle cx="598" cy="594" r="10" fill="#68E6D7" />
+    <circle cx="818" cy="594" r="10" fill="#68E6D7" />
+  </g>
+
   <defs>
-    <linearGradient id="bg" x1="78" y1="98" x2="1099" y2="820" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1630"/>
-      <stop offset="1" stop-color="#08111F"/>
+    <linearGradient id="bg" x1="122" y1="84" x2="1242" y2="1044" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F" />
+      <stop offset="0.54" stop-color="#071223" />
+      <stop offset="1" stop-color="#020611" />
     </linearGradient>
-    <linearGradient id="line1" x1="410" y1="254" x2="790" y2="254" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#85A8FF"/>
-      <stop offset="1" stop-color="#D995FF"/>
+    <linearGradient id="shellFill" x1="138" y1="98" x2="1256" y2="1002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B162B" />
+      <stop offset="1" stop-color="#0A1120" />
     </linearGradient>
-    <linearGradient id="line2" x1="438" y1="460" x2="762" y2="460" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6EF0CF"/>
-      <stop offset="1" stop-color="#85A8FF"/>
+    <linearGradient id="shellStroke" x1="84" y1="86" x2="1316" y2="1014" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24436C" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.16" />
     </linearGradient>
-    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 150) rotate(90) scale(80)">
-      <stop stop-color="#D995FF"/>
-      <stop offset="1" stop-color="#D995FF" stop-opacity="0"/>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1138 176) rotate(90) scale(168)">
+      <stop stop-color="#F4B46A" stop-opacity="0.88" />
+      <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 730) rotate(90) scale(100)">
-      <stop stop-color="#6EF0CF"/>
-      <stop offset="1" stop-color="#6EF0CF" stop-opacity="0"/>
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(214 920) rotate(90) scale(214)">
+      <stop stop-color="#68E6D7" stop-opacity="0.62" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
     </radialGradient>
+    <linearGradient id="baseline" x1="176" y1="952" x2="1224" y2="952" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17263F" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#38547D" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#17263F" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="topline" x1="208" y1="236" x2="1206" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#68E6D7" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#F4B46A" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="governorHex" x1="560" y1="202" x2="912" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18325D" />
+      <stop offset="1" stop-color="#10213F" />
+    </linearGradient>
+    <linearGradient id="governorStroke" x1="560" y1="202" x2="854" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8ABEFF" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.22" />
+    </linearGradient>
+    <linearGradient id="innerHex" x1="622" y1="304" x2="824" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132444" />
+      <stop offset="1" stop-color="#0F1C35" />
+    </linearGradient>
+    <linearGradient id="innerStroke" x1="622" y1="304" x2="792" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.16" />
+    </linearGradient>
+    <radialGradient id="corePulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 432) rotate(90) scale(88)">
+      <stop stop-color="#B5FFF5" />
+      <stop offset="0.48" stop-color="#79DDE5" />
+      <stop offset="1" stop-color="#69A7FF" />
+    </radialGradient>
+    <linearGradient id="verticalFlow" x1="708" y1="156" x2="708" y2="904" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" />
+      <stop offset="0.52" stop-color="#8ABEFF" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </linearGradient>
+    <linearGradient id="linkCool" x1="452" y1="316" x2="916" y2="736" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68E6D7" />
+      <stop offset="1" stop-color="#8ABEFF" />
+    </linearGradient>
+    <linearGradient id="linkWarm" x1="966" y1="316" x2="796" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" />
+      <stop offset="1" stop-color="#8ABEFF" />
+    </linearGradient>
+    <linearGradient id="panelFill" x1="180" y1="202" x2="1184" y2="878" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1430" stop-opacity="0.94" />
+      <stop offset="1" stop-color="#0A1225" stop-opacity="0.94" />
+    </linearGradient>
+    <linearGradient id="panelStroke" x1="180" y1="202" x2="1184" y2="878" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#294B78" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="warmStroke" x1="924" y1="202" x2="1224" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B46A" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#8ABEFF" stop-opacity="0.18" />
+    </linearGradient>
+    <radialGradient id="memoryNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(388 320) rotate(90) scale(48)">
+      <stop stop-color="#A7FFF2" />
+      <stop offset="1" stop-color="#68E6D7" />
+    </radialGradient>
+    <radialGradient id="worldNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1018 320) rotate(90) scale(48)">
+      <stop stop-color="#C9DCFF" />
+      <stop offset="1" stop-color="#8ABEFF" />
+    </radialGradient>
+    <radialGradient id="checkpointNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 818) rotate(90) scale(48)">
+      <stop stop-color="#C9DCFF" />
+      <stop offset="1" stop-color="#8ABEFF" />
+    </radialGradient>
+    <radialGradient id="guideNode" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1130 818) rotate(90) scale(48)">
+      <stop stop-color="#FFD7A6" />
+      <stop offset="1" stop-color="#F4B46A" />
+    </radialGradient>
+    <filter id="coreShadow" x="460" y="160" width="494" height="544" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#000000" flood-opacity="0.34" />
+    </filter>
+    <filter id="panelShadow" x="144" y="174" width="1116" height="740" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.28" />
+    </filter>
   </defs>
 </svg>
