@@ -2,107 +2,94 @@
   <rect width="1400" height="1100" rx="52" fill="url(#bg)" />
   <rect x="34" y="34" width="1332" height="1032" rx="40" stroke="url(#frame)" />
 
-  <circle cx="1084" cy="192" r="164" fill="url(#warmGlow)" />
-  <circle cx="1006" cy="484" r="280" fill="url(#coolGlow)" />
-  <circle cx="272" cy="852" r="228" fill="url(#seaGlow)" />
+  <circle cx="1098" cy="198" r="170" fill="url(#warmGlow)" />
+  <circle cx="1010" cy="486" r="290" fill="url(#coolGlow)" />
+  <circle cx="258" cy="884" r="238" fill="url(#seaGlow)" />
 
   <g opacity="0.28">
-    <path d="M106 854C250 748 410 696 586 696C790 696 980 756 1234 944" stroke="url(#horizon)" stroke-width="2" />
-    <path d="M160 784C324 700 468 664 646 664C828 664 994 716 1180 836" stroke="url(#horizonSoft)" stroke-width="2" stroke-dasharray="12 16" />
+    <path d="M118 860C270 760 438 704 620 704C812 704 1010 770 1246 944" stroke="url(#horizon)" stroke-width="2" />
+    <path d="M174 780C336 706 490 670 664 670C846 670 1000 722 1186 842" stroke="url(#horizonSoft)" stroke-width="2" stroke-dasharray="12 16" />
   </g>
 
   <g filter="url(#orbShadow)">
-    <circle cx="930" cy="470" r="212" fill="url(#orbFill)" />
-    <circle cx="930" cy="470" r="274" stroke="url(#orbitA)" stroke-width="2" opacity="0.58" />
-    <ellipse cx="930" cy="470" rx="354" ry="246" transform="rotate(-16 930 470)" stroke="url(#orbitB)" stroke-width="2" opacity="0.34" />
+    <circle cx="932" cy="478" r="214" fill="url(#orbFill)" />
+    <circle cx="932" cy="478" r="276" stroke="url(#orbitA)" stroke-width="2" opacity="0.58" />
+    <ellipse cx="932" cy="478" rx="354" ry="246" transform="rotate(-16 932 478)" stroke="url(#orbitB)" stroke-width="2" opacity="0.34" />
   </g>
 
   <g filter="url(#towerShadow)">
-    <rect x="532" y="258" width="120" height="270" rx="38" fill="url(#towerA)" stroke="url(#towerStroke)" />
-    <rect x="684" y="212" width="140" height="320" rx="42" fill="url(#towerB)" stroke="url(#towerStroke)" />
-    <rect x="864" y="186" width="164" height="352" rx="46" fill="url(#towerC)" stroke="url(#towerStrokeWarm)" />
+    <rect x="558" y="266" width="112" height="248" rx="36" fill="url(#towerA)" stroke="url(#towerStroke)" />
+    <rect x="704" y="218" width="130" height="300" rx="40" fill="url(#towerB)" stroke="url(#towerStroke)" />
+    <rect x="874" y="194" width="156" height="324" rx="44" fill="url(#towerC)" stroke="url(#towerStrokeWarm)" />
   </g>
 
   <g filter="url(#panelShadow)">
-    <rect x="112" y="128" width="340" height="210" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
-    <rect x="150" y="388" width="292" height="164" rx="26" fill="url(#panelFill)" stroke="url(#panelStroke)" />
-    <rect x="1032" y="254" width="224" height="144" rx="24" fill="url(#panelFill)" stroke="url(#warmStroke)" />
-    <rect x="444" y="784" width="534" height="190" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="120" y="126" width="382" height="226" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="146" y="412" width="334" height="168" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="1032" y="238" width="236" height="154" rx="26" fill="url(#panelFill)" stroke="url(#warmStroke)" />
+    <rect x="430" y="800" width="566" height="164" rx="32" fill="url(#panelFill)" stroke="url(#panelStroke)" />
   </g>
 
-  <path d="M452 238L538 286" stroke="url(#linkCool)" stroke-width="3.5" stroke-linecap="round" />
-  <path d="M442 462L536 438" stroke="url(#linkCool)" stroke-width="3.5" stroke-linecap="round" />
-  <path d="M1032 326L1018 344" stroke="url(#linkWarm)" stroke-width="3.5" stroke-linecap="round" />
-  <path d="M720 784L754 548" stroke="url(#linkCool)" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M502 236L552 272" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+  <path d="M480 482L550 462" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+  <path d="M1032 330L1016 348" stroke="url(#linkWarm)" stroke-width="4" stroke-linecap="round" />
+  <path d="M716 800L756 560" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
 
-  <g opacity="0.92">
-    <circle cx="508" cy="310" r="10" fill="#8FEBDD" />
-    <circle cx="702" cy="268" r="10" fill="#8ABEFF" />
-    <circle cx="906" cy="248" r="10" fill="#F3BB78" />
-    <circle cx="1014" cy="714" r="12" fill="#8FEBDD" />
-    <circle cx="766" cy="804" r="10" fill="#8ABEFF" />
-    <circle cx="560" cy="842" r="10" fill="#F3BB78" />
+  <g opacity="0.94">
+    <circle cx="520" cy="310" r="11" fill="#8FEBDD" />
+    <circle cx="712" cy="272" r="11" fill="#8ABEFF" />
+    <circle cx="910" cy="250" r="11" fill="#F3BB78" />
+    <circle cx="1012" cy="718" r="12" fill="#8FEBDD" />
+    <circle cx="766" cy="812" r="10" fill="#8ABEFF" />
   </g>
 
-  <text x="142" y="182" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
-    Memories, dreams, symbols
+  <text x="152" y="196" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">
+    Meaning in
   </text>
-  <text x="142" y="228" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="23">
-    Meaning enters the world as
+  <text x="152" y="254" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="36">
+    memory, dreams,
   </text>
-  <text x="142" y="258" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="23">
-    something to interpret, not obey.
+  <text x="152" y="298" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="36">
+    rituals
   </text>
-  <rect x="142" y="286" width="112" height="34" rx="17" fill="#102142" />
-  <rect x="266" y="286" width="100" height="34" rx="17" fill="#102142" />
-  <rect x="378" y="286" width="58" height="34" rx="17" fill="#102142" />
-  <text x="168" y="309" fill="#8FEBDD" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Memory</text>
-  <text x="292" y="309" fill="#8ABEFF" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Dreams</text>
-  <text x="396" y="309" fill="#F3BB78" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Ritual</text>
 
-  <text x="178" y="442" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">
+  <text x="176" y="476" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
     Shared rules
   </text>
-  <text x="178" y="482" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Consent, identity, review,
+  <text x="176" y="526" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="34">
+    review, consent,
   </text>
-  <text x="178" y="512" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    and reversibility stay visible.
+  <text x="176" y="568" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="34">
+    rollback
   </text>
 
-  <text x="1060" y="308" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">
+  <text x="1060" y="314" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">
     Virgil
   </text>
-  <text x="1060" y="346" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Guide figure with
-  </text>
-  <text x="1060" y="376" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    bounded authority.
+  <text x="1060" y="364" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="34">
+    bounded guide
   </text>
 
-  <text x="474" y="846" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">
+  <text x="812" y="444" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">
+    Governed
+  </text>
+  <text x="838" y="512" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">
+    world
+  </text>
+  <text x="790" y="566" fill="#102038" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">
+    review before change
+  </text>
+
+  <text x="466" y="864" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">
     Return over time
   </text>
-  <text x="474" y="894" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="25">
-    Meaning becomes place, guidance, and experience
-  </text>
-  <text x="474" y="928" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="25">
-    inside a world you can revisit without losing control.
+  <text x="466" y="924" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="36">
+    memory becomes place and guidance
   </text>
 
-  <text x="820" y="446" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
-    Eternia world
-  </text>
-  <text x="788" y="486" fill="#102038" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
-    Proposal review
-  </text>
-  <text x="798" y="518" fill="#102038" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    before world change
-  </text>
-
-  <g opacity="0.82">
-    <rect x="706" y="116" width="188" height="44" rx="22" fill="#0C1430" stroke="#284C77" />
-    <text x="734" y="145" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.3">
+  <g opacity="0.88">
+    <rect x="688" y="116" width="220" height="44" rx="22" fill="#0C1430" stroke="#284C77" />
+    <text x="720" y="145" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.3">
       GOVERNED WORLD
     </text>
   </g>
@@ -118,58 +105,58 @@
       <stop offset="0.52" stop-color="#83B9FF" stop-opacity="0.22" />
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05" />
     </linearGradient>
-    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1084 192) rotate(90) scale(164)">
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1098 198) rotate(90) scale(170)">
       <stop stop-color="#F3BB78" stop-opacity="0.88" />
       <stop offset="1" stop-color="#F3BB78" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1006 484) rotate(90) scale(280)">
+    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 486) rotate(90) scale(290)">
       <stop stop-color="#83B9FF" stop-opacity="0.72" />
       <stop offset="0.48" stop-color="#68E6D7" stop-opacity="0.28" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(272 852) rotate(90) scale(228)">
+    <radialGradient id="seaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(258 884) rotate(90) scale(238)">
       <stop stop-color="#68E6D7" stop-opacity="0.52" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="horizon" x1="106" y1="854" x2="1234" y2="944" gradientUnits="userSpaceOnUse">
+    <linearGradient id="horizon" x1="118" y1="860" x2="1246" y2="944" gradientUnits="userSpaceOnUse">
       <stop stop-color="#162540" stop-opacity="0" />
       <stop offset="0.44" stop-color="#38547D" />
       <stop offset="1" stop-color="#162540" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="horizonSoft" x1="160" y1="784" x2="1180" y2="836" gradientUnits="userSpaceOnUse">
+    <linearGradient id="horizonSoft" x1="174" y1="780" x2="1186" y2="842" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" stop-opacity="0" />
       <stop offset="0.52" stop-color="#68E6D7" stop-opacity="0.3" />
       <stop offset="1" stop-color="#F3BB78" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="orbFill" x1="764" y1="308" x2="1074" y2="610" gradientUnits="userSpaceOnUse">
+    <linearGradient id="orbFill" x1="766" y1="316" x2="1076" y2="618" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#67A8FF" />
     </linearGradient>
-    <linearGradient id="orbitA" x1="656" y1="280" x2="1204" y2="660" gradientUnits="userSpaceOnUse">
+    <linearGradient id="orbitA" x1="656" y1="288" x2="1208" y2="670" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#83B9FF" />
     </linearGradient>
-    <linearGradient id="orbitB" x1="604" y1="214" x2="1242" y2="790" gradientUnits="userSpaceOnUse">
+    <linearGradient id="orbitB" x1="604" y1="222" x2="1242" y2="798" gradientUnits="userSpaceOnUse">
       <stop stop-color="#83B9FF" />
       <stop offset="1" stop-color="#F3BB78" />
     </linearGradient>
-    <linearGradient id="towerA" x1="544" y1="258" x2="648" y2="528" gradientUnits="userSpaceOnUse">
+    <linearGradient id="towerA" x1="570" y1="266" x2="668" y2="514" gradientUnits="userSpaceOnUse">
       <stop stop-color="#112040" />
       <stop offset="1" stop-color="#193156" />
     </linearGradient>
-    <linearGradient id="towerB" x1="700" y1="212" x2="814" y2="532" gradientUnits="userSpaceOnUse">
+    <linearGradient id="towerB" x1="720" y1="218" x2="824" y2="518" gradientUnits="userSpaceOnUse">
       <stop stop-color="#13254C" />
       <stop offset="1" stop-color="#21406D" />
     </linearGradient>
-    <linearGradient id="towerC" x1="882" y1="186" x2="1016" y2="538" gradientUnits="userSpaceOnUse">
+    <linearGradient id="towerC" x1="892" y1="194" x2="1018" y2="518" gradientUnits="userSpaceOnUse">
       <stop stop-color="#1A3560" />
       <stop offset="1" stop-color="#29508A" />
     </linearGradient>
-    <linearGradient id="towerStroke" x1="532" y1="258" x2="824" y2="532" gradientUnits="userSpaceOnUse">
+    <linearGradient id="towerStroke" x1="558" y1="218" x2="834" y2="518" gradientUnits="userSpaceOnUse">
       <stop stop-color="#83B9FF" stop-opacity="0.42" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0.18" />
     </linearGradient>
-    <linearGradient id="towerStrokeWarm" x1="864" y1="186" x2="1028" y2="538" gradientUnits="userSpaceOnUse">
+    <linearGradient id="towerStrokeWarm" x1="874" y1="194" x2="1030" y2="518" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F3BB78" stop-opacity="0.44" />
       <stop offset="1" stop-color="#83B9FF" stop-opacity="0.18" />
     </linearGradient>
@@ -177,29 +164,29 @@
       <stop stop-color="#0B1430" stop-opacity="0.94" />
       <stop offset="1" stop-color="#0A1224" stop-opacity="0.94" />
     </linearGradient>
-    <linearGradient id="panelStroke" x1="112" y1="128" x2="976" y2="974" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panelStroke" x1="112" y1="128" x2="996" y2="974" gradientUnits="userSpaceOnUse">
       <stop stop-color="#284C77" stop-opacity="0.44" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
     </linearGradient>
-    <linearGradient id="warmStroke" x1="1032" y1="254" x2="1256" y2="398" gradientUnits="userSpaceOnUse">
+    <linearGradient id="warmStroke" x1="1032" y1="238" x2="1268" y2="392" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F3BB78" stop-opacity="0.42" />
       <stop offset="1" stop-color="#83B9FF" stop-opacity="0.18" />
     </linearGradient>
-    <linearGradient id="linkCool" x1="442" y1="462" x2="754" y2="548" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkCool" x1="480" y1="482" x2="756" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#83B9FF" />
     </linearGradient>
-    <linearGradient id="linkWarm" x1="1032" y1="326" x2="1018" y2="344" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkWarm" x1="1032" y1="330" x2="1016" y2="348" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#F3BB78" />
     </linearGradient>
-    <filter id="orbShadow" x="548" y="186" width="764" height="584" color-interpolation-filters="sRGB">
+    <filter id="orbShadow" x="548" y="194" width="768" height="588" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="38" stdDeviation="38" flood-color="#000000" flood-opacity="0.32" />
     </filter>
-    <filter id="towerShadow" x="490" y="150" width="580" height="430" color-interpolation-filters="sRGB">
+    <filter id="towerShadow" x="516" y="160" width="566" height="410" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000000" flood-opacity="0.3" />
     </filter>
-    <filter id="panelShadow" x="82" y="104" width="1214" height="910" color-interpolation-filters="sRGB">
+    <filter id="panelShadow" x="82" y="104" width="1226" height="912" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.28" />
     </filter>
   </defs>

@@ -13,94 +13,76 @@
   <g filter="url(#coreShadow)">
     <path d="M568 282L708 210L848 282L904 434L848 586L708 658L568 586L512 434L568 282Z" fill="url(#coreHex)" stroke="url(#coreStroke)" stroke-width="2" />
     <path d="M622 350L708 306L792 350L826 434L792 518L708 562L622 518L588 434L622 350Z" fill="url(#innerHex)" stroke="url(#innerStroke)" stroke-width="2" />
-    <circle cx="708" cy="434" r="92" fill="url(#corePulse)" />
+    <circle cx="708" cy="434" r="96" fill="url(#corePulse)" />
   </g>
 
   <g opacity="0.94">
     <path d="M708 164V306" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" />
-    <path d="M454 318L620 392" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
-    <path d="M964 318L796 392" stroke="url(#linkWarm)" stroke-width="4" stroke-linecap="round" />
-    <path d="M474 742L636 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
-    <path d="M940 742L780 548" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
-    <path d="M708 562V918" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" />
+    <path d="M490 324L622 394" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M926 324L796 394" stroke="url(#linkWarm)" stroke-width="4" stroke-linecap="round" />
+    <path d="M474 744L630 554" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M940 744L786 554" stroke="url(#linkCool)" stroke-width="4" stroke-linecap="round" />
+    <path d="M708 562V822" stroke="url(#verticalFlow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 16" />
   </g>
 
   <g filter="url(#panelShadow)">
-    <rect x="176" y="204" width="300" height="186" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
-    <rect x="924" y="204" width="300" height="186" rx="28" fill="url(#panelFill)" stroke="url(#warmStroke)" />
-    <rect x="176" y="720" width="320" height="190" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
-    <rect x="538" y="774" width="340" height="136" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
-    <rect x="904" y="720" width="320" height="190" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="170" y="220" width="332" height="158" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="898" y="220" width="332" height="158" rx="28" fill="url(#panelFill)" stroke="url(#warmStroke)" />
+    <rect x="158" y="716" width="356" height="164" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="536" y="808" width="344" height="116" rx="28" fill="url(#panelFill)" stroke="url(#panelStroke)" />
+    <rect x="886" y="716" width="356" height="164" rx="30" fill="url(#panelFill)" stroke="url(#panelStroke)" />
   </g>
 
-  <text x="606" y="406" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">
+  <g opacity="0.92">
+    <circle cx="394" cy="332" r="50" fill="url(#nodeSea)" />
+    <circle cx="1006" cy="332" r="50" fill="url(#nodeBlue)" />
+    <circle cx="432" cy="820" r="50" fill="url(#nodeSea)" />
+    <circle cx="708" cy="754" r="42" fill="url(#nodeGold)" />
+    <circle cx="1132" cy="820" r="50" fill="url(#nodeGold)" />
+  </g>
+
+  <text x="596" y="404" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">
     Governor
   </text>
-  <text x="614" y="454" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="24">
+  <text x="610" y="460" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="34">
     review + policy
   </text>
 
-  <text x="208" y="266" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
-    Proposal-only influence
+  <text x="206" y="286" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">
+    Proposal-only
   </text>
-  <text x="208" y="308" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Dreams, symbols, and guidance
-  </text>
-  <text x="208" y="338" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    become reviewable proposals first.
+  <text x="206" y="336" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    reviewable first
   </text>
 
-  <text x="952" y="266" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+  <text x="936" y="286" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">
     Identity anchors
   </text>
-  <text x="952" y="308" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Memory, relationships, values,
-  </text>
-  <text x="952" y="338" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    and selfhood stay legible.
+  <text x="936" y="336" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    stable selfhood
   </text>
 
-  <text x="208" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+  <text x="188" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">
     Read-first MindLink
   </text>
-  <text x="208" y="826" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    World influence and sensory
-  </text>
-  <text x="208" y="856" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    write-back stay blocked.
+  <text x="188" y="834" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    world writes blocked
   </text>
 
-  <text x="574" y="828" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+  <text x="564" y="874" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">
     Consent + deletion
   </text>
-  <text x="574" y="870" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Sensitive inputs stay revocable,
-  </text>
-  <text x="574" y="900" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    minimizable, and bounded.
-  </text>
 
-  <text x="940" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+  <text x="926" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">
     Replay + rollback
   </text>
-  <text x="940" y="826" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    One visible loop keeps checkpoints,
-  </text>
-  <text x="940" y="856" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    replay, and rollback in view.
+  <text x="926" y="834" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
+    visible checkpoints
   </text>
 
-  <g opacity="0.9">
-    <circle cx="392" cy="330" r="48" fill="url(#nodeSea)" />
-    <circle cx="1008" cy="330" r="48" fill="url(#nodeBlue)" />
-    <circle cx="430" cy="824" r="48" fill="url(#nodeSea)" />
-    <circle cx="708" cy="742" r="40" fill="url(#nodeGold)" />
-    <circle cx="1144" cy="824" r="48" fill="url(#nodeGold)" />
-  </g>
-
-  <g opacity="0.86">
-    <rect x="660" y="114" width="100" height="44" rx="22" fill="#0C1430" stroke="#294C77" />
-    <text x="680" y="143" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">TRUST</text>
+  <g opacity="0.88">
+    <rect x="652" y="114" width="112" height="44" rx="22" fill="#0C1430" stroke="#294C77" />
+    <text x="676" y="143" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">TRUST</text>
   </g>
 
   <defs>
@@ -151,52 +133,52 @@
       <stop stop-color="#F3BB78" stop-opacity="0.42" />
       <stop offset="1" stop-color="#83B9FF" stop-opacity="0.16" />
     </linearGradient>
-    <radialGradient id="corePulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 434) rotate(90) scale(92)">
+    <radialGradient id="corePulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 434) rotate(90) scale(96)">
       <stop stop-color="#B5FFF5" />
       <stop offset="0.48" stop-color="#79DDE5" />
       <stop offset="1" stop-color="#67A8FF" />
     </radialGradient>
-    <linearGradient id="verticalFlow" x1="708" y1="164" x2="708" y2="918" gradientUnits="userSpaceOnUse">
+    <linearGradient id="verticalFlow" x1="708" y1="164" x2="708" y2="822" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F3BB78" />
       <stop offset="0.5" stop-color="#83B9FF" />
       <stop offset="1" stop-color="#68E6D7" />
     </linearGradient>
-    <linearGradient id="linkCool" x1="454" y1="318" x2="940" y2="742" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkCool" x1="474" y1="324" x2="940" y2="744" gradientUnits="userSpaceOnUse">
       <stop stop-color="#68E6D7" />
       <stop offset="1" stop-color="#83B9FF" />
     </linearGradient>
-    <linearGradient id="linkWarm" x1="964" y1="318" x2="796" y2="392" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linkWarm" x1="926" y1="324" x2="796" y2="394" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F3BB78" />
       <stop offset="1" stop-color="#83B9FF" />
     </linearGradient>
-    <linearGradient id="panelFill" x1="176" y1="204" x2="1224" y2="910" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panelFill" x1="158" y1="220" x2="1242" y2="924" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1430" stop-opacity="0.94" />
       <stop offset="1" stop-color="#0A1225" stop-opacity="0.94" />
     </linearGradient>
-    <linearGradient id="panelStroke" x1="176" y1="204" x2="1224" y2="910" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panelStroke" x1="158" y1="220" x2="1242" y2="924" gradientUnits="userSpaceOnUse">
       <stop stop-color="#294B78" stop-opacity="0.46" />
       <stop offset="1" stop-color="#68E6D7" stop-opacity="0.16" />
     </linearGradient>
-    <linearGradient id="warmStroke" x1="924" y1="204" x2="1224" y2="390" gradientUnits="userSpaceOnUse">
+    <linearGradient id="warmStroke" x1="898" y1="220" x2="1230" y2="378" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F3BB78" stop-opacity="0.42" />
       <stop offset="1" stop-color="#83B9FF" stop-opacity="0.18" />
     </linearGradient>
-    <radialGradient id="nodeSea" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(392 330) rotate(90) scale(48)">
+    <radialGradient id="nodeSea" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(394 332) rotate(90) scale(50)">
       <stop stop-color="#A7FFF2" />
       <stop offset="1" stop-color="#68E6D7" />
     </radialGradient>
-    <radialGradient id="nodeBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1008 330) rotate(90) scale(48)">
+    <radialGradient id="nodeBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1006 332) rotate(90) scale(50)">
       <stop stop-color="#C9DCFF" />
       <stop offset="1" stop-color="#83B9FF" />
     </radialGradient>
-    <radialGradient id="nodeGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 742) rotate(90) scale(48)">
+    <radialGradient id="nodeGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(708 754) rotate(90) scale(50)">
       <stop stop-color="#FFD8AE" />
       <stop offset="1" stop-color="#F3BB78" />
     </radialGradient>
     <filter id="coreShadow" x="470" y="168" width="476" height="544" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#000000" flood-opacity="0.34" />
     </filter>
-    <filter id="panelShadow" x="140" y="176" width="1120" height="770" color-interpolation-filters="sRGB">
+    <filter id="panelShadow" x="122" y="192" width="1156" height="772" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.28" />
     </filter>
   </defs>
