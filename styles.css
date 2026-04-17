@@ -55,6 +55,11 @@ img {
   max-width: 100%;
 }
 
+video {
+  display: block;
+  max-width: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -340,6 +345,16 @@ section[id] {
   font-size: 0.92rem;
 }
 
+.hero-note a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color 220ms ease;
+}
+
+.hero-note a:hover {
+  border-color: rgba(104, 230, 215, 0.5);
+}
+
 .hero-visual {
   position: relative;
   min-height: 520px;
@@ -386,6 +401,117 @@ section[id] {
 
 .proof-band {
   padding: 34px 0 92px;
+}
+
+.experience-section {
+  padding-top: 34px;
+  background:
+    radial-gradient(circle at 86% 20%, rgba(243, 187, 120, 0.12), transparent 18%),
+    radial-gradient(circle at 14% 82%, rgba(104, 230, 215, 0.1), transparent 18%);
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.16fr) minmax(320px, 0.84fr);
+  gap: 22px;
+  margin-top: 36px;
+  align-items: start;
+}
+
+.experience-card {
+  padding: 24px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(11, 20, 40, 0.82), rgba(6, 11, 24, 0.98));
+  box-shadow: var(--shadow);
+}
+
+.experience-card-cosmology {
+  background:
+    linear-gradient(180deg, rgba(12, 20, 40, 0.86), rgba(6, 11, 24, 0.98)),
+    radial-gradient(circle at 82% 18%, rgba(131, 185, 255, 0.16), transparent 18%);
+}
+
+.experience-card-soundtrack {
+  background:
+    linear-gradient(180deg, rgba(15, 18, 30, 0.86), rgba(8, 10, 18, 0.98)),
+    radial-gradient(circle at 50% 20%, rgba(243, 187, 120, 0.14), transparent 18%);
+}
+
+.experience-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.experience-kicker {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.experience-card h3 {
+  margin-top: 8px;
+  font-size: 1.28rem;
+}
+
+.experience-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  color: var(--soft);
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.experience-copy {
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.experience-video {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  background: #050916;
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.26);
+}
+
+.experience-video-wide {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.experience-video-square {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.experience-caption {
+  margin-top: 14px;
+  color: var(--soft);
+}
+
+.experience-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.experience-meta div {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .proof-band-head {
@@ -739,6 +865,11 @@ section[id] {
     grid-template-columns: 1fr;
   }
 
+  .experience-grid,
+  .experience-meta {
+    grid-template-columns: 1fr;
+  }
+
   .proof-grid,
   .feature-grid,
   .role-grid,
@@ -806,6 +937,15 @@ section[id] {
   .role-grid,
   .roadmap-grid {
     grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    padding: 18px;
+  }
+
+  .experience-card-head {
+    flex-direction: column;
+    align-items: start;
   }
 
   .language-strip {

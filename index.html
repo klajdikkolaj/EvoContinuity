@@ -37,6 +37,7 @@
           </span>
         </a>
         <nav class="nav" aria-label="Primary">
+          <a href="#experience">Experience</a>
           <a href="#how-it-works">How it works</a>
           <a href="#difference">Why Eternia</a>
           <a href="#trust">Governance</a>
@@ -60,7 +61,10 @@
                 <a class="button primary" href="#how-it-works">See how it works</a>
                 <a class="button ghost" href="#vision">Read the vision</a>
               </div>
-              <p class="hero-note">For continuity, reflection, and intentional growth.</p>
+              <p class="hero-note">
+                For continuity, reflection, and intentional growth.
+                <a href="#experience">See the personal cosmology and hear the soundtrack.</a>
+              </p>
             </div>
 
             <figure class="hero-visual" data-reveal>
@@ -74,6 +78,83 @@
                 fetchpriority="high"
               />
             </figure>
+          </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+          <div class="section-heading" data-reveal>
+            <div class="eyebrow">See and hear Eternia</div>
+            <h2>The personal cosmology and the music now live on the page.</h2>
+            <p>
+              Eternia should not feel like architecture alone. This section brings in the short personal cosmology engine
+              film and the longer <em>A World I Grew</em> soundtrack artifact so visitors can feel the world, not just
+              read about it.
+            </p>
+          </div>
+
+          <div class="experience-grid">
+            <article class="experience-card experience-card-cosmology" data-reveal>
+              <div class="experience-card-head">
+                <div>
+                  <p class="experience-kicker">Personal cosmology engine</p>
+                  <h3>8-second motion loop</h3>
+                </div>
+                <span class="experience-badge">Muted preview</span>
+              </div>
+
+              <p class="experience-copy">
+                A fast visual pass through Eternia as a symbolic world-form rather than a static interface.
+              </p>
+
+              <video
+                class="experience-video experience-video-wide"
+                poster="./assets/media/eternia-personal-cosmology-engine-poster.png"
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                data-loop-preview
+              >
+                <source src="./assets/media/eternia-personal-cosmology-engine.mp4" type="video/mp4" />
+              </video>
+
+              <p class="experience-caption">It stays muted so the page remains calm on first load.</p>
+            </article>
+
+            <article class="experience-card experience-card-soundtrack" data-reveal>
+              <div class="experience-card-head">
+                <div>
+                  <p class="experience-kicker">Soundtrack artifact</p>
+                  <h3>A World I Grew</h3>
+                </div>
+                <span class="experience-badge">2m 43s with sound</span>
+              </div>
+
+              <p class="experience-copy">
+                Press play for the music. The square moving artwork remains visible while the soundtrack plays.
+              </p>
+
+              <video
+                class="experience-video experience-video-square"
+                poster="./assets/media/a-world-i-grew-poster.png"
+                controls
+                loop
+                playsinline
+                preload="metadata"
+              >
+                <source src="./assets/media/a-world-i-grew.mp4" type="video/mp4" />
+              </video>
+
+              <p class="experience-caption">
+                This is the emotional layer of Eternia, not just a decorative media block.
+              </p>
+            </article>
+          </div>
+
+          <div class="experience-meta" data-reveal>
+            <div>8-second personal cosmology loop</div>
+            <div>2-minute 43-second soundtrack artifact</div>
+            <div>Both media files are now repo-local for deployment</div>
           </div>
         </section>
 

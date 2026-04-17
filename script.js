@@ -65,3 +65,46 @@ if (topbar) {
   syncTopbar();
   window.addEventListener("scroll", syncTopbar, { passive: true });
 }
+
+const loopPreviewVideos = [...document.querySelectorAll("[data-loop-preview]")];
+
+if (loopPreviewVideos.length) {
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  const syncLoopPreview = (video, shouldPlay) => {
+    if (prefersReducedMotion.matches) {
+      video.pause();
+      return;
+    }
+
+    if (shouldPlay) {
+      const playResult = video.play();
+
+      if (playResult && typeof playResult.catch === "function") {
+        playResult.catch(() => {});
+      }
+    } else {
+      video.pause();
+    }
+  };
+
+  const loopPreviewObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        syncLoopPreview(entry.target, entry.isIntersecting && entry.intersectionRatio > 0.45 && !document.hidden);
+      });
+    },
+    { threshold: [0, 0.45, 0.75] }
+  );
+
+  loopPreviewVideos.forEach((video) => loopPreviewObserver.observe(video));
+
+  document.addEventListener("visibilitychange", () => {
+    loopPreviewVideos.forEach((video) => {
+      const rect = video.getBoundingClientRect();
+      const isVisible = rect.bottom > 0 && rect.top < window.innerHeight;
+
+      syncLoopPreview(video, isVisible && !document.hidden);
+    });
+  });
+}
