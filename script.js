@@ -56,6 +56,8 @@ if (hero) {
 }
 
 const topbar = document.querySelector(".topbar");
+const navToggle = document.querySelector(".nav-toggle");
+const primaryNav = document.querySelector(".nav");
 
 if (topbar) {
   const syncTopbar = () => {
@@ -64,6 +66,37 @@ if (topbar) {
 
   syncTopbar();
   window.addEventListener("scroll", syncTopbar, { passive: true });
+}
+
+if (topbar && navToggle && primaryNav) {
+  const setMenuState = (isOpen) => {
+    topbar.classList.toggle("is-menu-open", isOpen);
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+    navToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+  };
+
+  navToggle.addEventListener("click", () => {
+    const isOpen = topbar.classList.contains("is-menu-open");
+    setMenuState(!isOpen);
+  });
+
+  primaryNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      setMenuState(false);
+    });
+  });
+
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setMenuState(false);
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 820) {
+      setMenuState(false);
+    }
+  });
 }
 
 const loopPreviewVideos = [...document.querySelectorAll("[data-loop-preview]")];
