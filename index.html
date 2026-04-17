@@ -36,7 +36,18 @@
             <small>by EvoContinuity</small>
           </span>
         </a>
-        <nav class="nav" aria-label="Primary">
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-line" aria-hidden="true"></span>
+          <span class="nav-toggle-line" aria-hidden="true"></span>
+          <span class="nav-toggle-line" aria-hidden="true"></span>
+        </button>
+        <nav id="primary-nav" class="nav" aria-label="Primary">
           <a href="#experience">Experience</a>
           <a href="#market">Market</a>
           <a href="#how-it-works">How it works</a>
@@ -163,11 +174,11 @@
           <div class="proof-band-head" data-reveal>
             <div>
               <p class="eyebrow">Built on real product proof, not hype</p>
-              <h2>Repo-grounded product proof belongs near the fold.</h2>
+              <h2>Real product proof belongs near the fold.</h2>
             </div>
             <p class="proof-note">
-              Verified against the current Eternia implementation on April 10, 2026. These are completed architecture
-              slices, not vanity metrics.
+              Based on the current Eternia product state on April 10, 2026. These are live capabilities, not vanity
+              metrics.
             </p>
           </div>
 
@@ -175,32 +186,32 @@
             <article class="proof-item" data-reveal>
               <p class="proof-value">4</p>
               <h3>Explicit AI society roles</h3>
-              <p>mentor, companion, civic builder, and free-evolving</p>
+              <p>guides, companions, civic builders, and more open-ended residents each have distinct responsibilities</p>
             </article>
             <article class="proof-item" data-reveal>
               <p class="proof-value">5</p>
-              <h3>Completed read-first MindLink slices</h3>
-              <p>I3.1 through I3.5 from signal intake to retention hygiene</p>
+              <h3>Read-first human-state safeguards</h3>
+              <p>sensitive signals can be interpreted and stored with consent-aware limits before anything affects your world</p>
             </article>
             <article class="proof-item" data-reveal>
               <p class="proof-value">5</p>
-              <h3>Completed bounded Virgil + society slices</h3>
-              <p>I4.1 through I4.5 covering contract, roles, lineage, civic structure, and oversight</p>
+              <h3>Governed guide and society systems</h3>
+              <p>guides, companions, civic roles, shared laws, and oversight are already covered by the current product logic</p>
             </article>
             <article class="proof-item" data-reveal>
               <p class="proof-value">Proposal-only</p>
               <h3>Dream and symbol ingestion</h3>
-              <p>inputs become reviewable proposals before they can shape the world</p>
+              <p>dreams and symbols can be interpreted, but they enter as proposals you can review before they shape anything</p>
             </article>
             <article class="proof-item" data-reveal>
               <p class="proof-value">0</p>
-              <h3>MindLink write-back paths</h3>
-              <p>no direct world influence or sensory write-back in the current release</p>
+              <h3>Silent world write-backs</h3>
+              <p>inner-state signals do not directly rewrite the world or push sensory feedback back to you</p>
             </article>
             <article class="proof-item" data-reveal>
               <p class="proof-value">1</p>
-              <h3>Canonical governed visible loop</h3>
-              <p>replay, rollback, and recent-run history are already part of the product proof</p>
+              <h3>Visible world-change loop</h3>
+              <p>approved changes stay inspectable, with replay, rollback, and recent history available instead of hidden automation</p>
             </article>
           </div>
         </section>
@@ -470,7 +481,7 @@
             </article>
             <article class="role-item" data-reveal>
               <h3>Residents, later</h3>
-              <p>Bounded AI beings with explicit roles, permissions, lineage rules, and shared laws.</p>
+              <p>Bounded AI beings with explicit roles, permissions, and shared laws.</p>
             </article>
           </div>
         </section>
@@ -487,7 +498,7 @@
                 src="./assets/governance-core.svg"
                 width="1400"
                 height="1100"
-                alt="Trust architecture showing proposals, identity anchors, consent, role boundaries, replay and rollback, and a read-first MindLink boundary."
+                alt="Trust architecture showing proposals, identity anchors, consent, role boundaries, replay and rollback, and read-first personal-signal boundaries."
                 loading="lazy"
                 decoding="async"
               />
@@ -495,24 +506,24 @@
 
             <div class="trust-grid">
               <article class="trust-item" data-reveal>
-                <h3>Proposal-only inner-life ingestion</h3>
-                <p>Dreams and symbols can influence the world only through reviewable proposals.</p>
+                <h3>Dreams and symbols become proposals</h3>
+                <p>Inner-life material can influence the world only through reviewable proposals, not automatic edits.</p>
               </article>
               <article class="trust-item" data-reveal>
                 <h3>Read-first human-state boundaries</h3>
-                <p>MindLink currently stops at bounded interpretation, confidence, and consent-aware storage.</p>
+                <p>Sensitive signals can be interpreted with consent-aware limits and stored carefully without silently changing the world.</p>
               </article>
               <article class="trust-item" data-reveal>
-                <h3>No direct MindLink write-back</h3>
-                <p>Both direct world influence and sensory write-back remain blocked in the current release.</p>
+                <h3>No direct world or sensory write-back</h3>
+                <p>Inner-state signals do not directly rewrite the world or push sensory feedback back to you.</p>
               </article>
               <article class="trust-item" data-reveal>
-                <h3>Replay + rollback visible loop</h3>
-                <p>Approved changes travel through a canonical loop with checkpoints and recent-run history.</p>
+                <h3>Visible replay + rollback loop</h3>
+                <p>Approved changes stay inspectable, with checkpoints, replay, rollback, and recent history available.</p>
               </article>
               <article class="trust-item" data-reveal>
                 <h3>Explicit AI roles and permissions</h3>
-                <p>Virgil and society roles are bounded through contract, duties, lineage rules, and oversight tests.</p>
+                <p>Guides, companions, and civic roles have clear responsibilities and boundaries instead of hidden authority.</p>
               </article>
               <article class="trust-item" data-reveal>
                 <h3>Identity continuity anchors</h3>
@@ -617,8 +628,7 @@
           <p>Governed personal worlds by EvoContinuity.</p>
         </div>
         <p class="footer-note">
-          Homepage proof points are grounded in the current Eternia repo state and verified against completed I0, I2, I3,
-          and I4 implementation slices on April 10, 2026.
+          Homepage proof points reflect the current Eternia product state as of April 10, 2026.
         </p>
       </footer>
     </div>
