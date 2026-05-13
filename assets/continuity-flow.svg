@@ -11,7 +11,7 @@
   </g>
 
   <text x="144" y="194" fill="#68E6D7" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="6">
-    HOW THE GOVERNED LOOP WORKS
+    HOW THE PRIVATE PLACE LOOP WORKS
   </text>
 
   <g filter="url(#cardShadow)">
@@ -35,35 +35,35 @@
   <text x="184" y="762" fill="#061019" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">4</text>
 
   <text x="276" y="312" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
-    Meaning in
+    Private idea
   </text>
   <text x="676" y="312" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
-    memory, dream, ritual
+    thought, dream, memory, ritual
   </text>
 
   <text x="276" y="458" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
-    Proposal
+    Symbolic preview
   </text>
   <text x="676" y="458" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
-    interpreted, reviewable, reversible
+    interpreted and reviewable
   </text>
 
   <text x="276" y="604" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
-    Rules
+    Review boundary
   </text>
   <text x="676" y="604" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
-    consent, identity, role bounds
+    created vs private
   </text>
 
   <text x="276" y="750" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
-    World loop
+    Saved place
   </text>
   <text x="676" y="750" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="32">
-    approve, replay, rollback
+    save and revisit
   </text>
 
   <text x="372" y="912" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">
-    Nothing important changes behind your back
+    Raw source stays private by default
   </text>
 
   <g opacity="0.88">
@@ -73,16 +73,16 @@
     <rect x="992" y="716" width="176" height="52" rx="26" fill="#102142" />
   </g>
   <text x="1038" y="312" fill="#8FEBDD" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
-    input
+    source
   </text>
   <text x="998" y="458" fill="#83B9FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
-    review packet
+    preview
   </text>
   <text x="1018" y="604" fill="#8FEBDD" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
-    guardrails
+    boundary
   </text>
   <text x="1028" y="750" fill="#F3BB78" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
-    checkpoints
+    revisit
   </text>
 
   <defs>

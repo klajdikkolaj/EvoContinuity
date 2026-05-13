@@ -42,10 +42,10 @@
   </g>
 
   <text x="596" y="404" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">
-    Governor
+    Review
   </text>
   <text x="610" y="460" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="34">
-    review + policy
+    privacy + consent
   </text>
 
   <text x="206" y="286" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">
@@ -56,28 +56,28 @@
   </text>
 
   <text x="936" y="286" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">
-    Identity anchors
+    Source privacy
   </text>
   <text x="936" y="336" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
-    stable selfhood
+    raw text private
   </text>
 
   <text x="188" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">
-    Read-first MindLink
+    Model Lab gated
   </text>
   <text x="188" y="834" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
-    world writes blocked
+    evidence only
   </text>
 
   <text x="564" y="874" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">
-    Consent + deletion
+    Undo or remove
   </text>
 
   <text x="926" y="784" fill="#ECF2FF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">
-    Replay + rollback
+    Static public repo
   </text>
   <text x="926" y="834" fill="#AAB8D4" font-family="Arial, Helvetica, sans-serif" font-size="30">
-    visible checkpoints
+    no runtime code
   </text>
 
   <g opacity="0.88">

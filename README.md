@@ -3,7 +3,9 @@
 Clarity-first marketing page for Eternia.
 
 ## Positioning
-EvoContinuity now presents Eternia as a governed personal world for memory, meaning, guidance, and continuity - understandable in one screen before the deeper philosophy unfolds.
+EvoContinuity now presents Eternia as a private, consent-first worldbuilding journal where meaningful ideas become
+revisitable places. The page keeps the larger co-evolution vision visible, but the first screen is anchored in the
+current public wedge.
 
 ## Files
 - `index.html` - main landing page
@@ -16,5 +18,7 @@ EvoContinuity now presents Eternia as a governed personal world for memory, mean
 
 ## Notes
 - The site remains intentionally static for fast deployment on Vercel, Netlify, GitHub Pages, or any simple web host.
-- Near-fold proof points are grounded in the current Eternia repo state verified on 2026-04-10.
-- The current homepage favors product clarity, governance, and trust over market-theater metrics.
+- Near-fold proof points are grounded in the current private Eternia repo state verified on 2026-05-13.
+- The connected public showcase repo is `eternakk/eternia-public`; it is documentation and static demo only, not the
+  canonical implementation.
+- The current homepage favors product clarity, privacy boundaries, and trust over market-theater metrics.
